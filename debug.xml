@@ -2,7 +2,7 @@
 <!DOCTYPE properties SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
 <properties>
 
-    <entry key='web.path'>./traccar-web/simple</entry>
+    <entry key='web.path'>./traccar-web/build</entry>
     <entry key='web.localizationPath'>./traccar-web/src/resources/l10n</entry>
     <entry key='web.debug'>true</entry>
     <entry key='web.console'>true</entry>
@@ -11,9 +11,14 @@
 
     <entry key='media.path'>./target/media</entry>
 
-    <entry key='logger.console'>true</entry>
+    <entry key='logger.console'>false</entry>
+    <entry key='logger.enable'>true</entry>
+    <entry key='logger.level'>info</entry>
+    <entry key='logger.rotate'>true</entry>
     <entry key='logger.queries'>false</entry>
     <entry key='logger.fullStackTraces'>true</entry>
+    <entry key='web.requestLog.retainDays'>7</entry>
+    <entry key='decoder.timezone'>America/Toronto</entry>
 
     <entry key='mail.debug'>true</entry>
 
@@ -22,10 +27,35 @@
     <entry key='database.user'>sa</entry>
     <entry key='database.password'></entry>
 
-    <!--<entry key='server.instantAcknowledgement'>true</entry>
-    <entry key='server.buffering.threshold'>5000</entry>-->
+    <!--
+    <entry key='server.instantAcknowledgement'>true</entry>
+    <entry key='server.buffering.threshold'>5000</entry>
+    -->
 
-    <entry key='atrack.custom'>true</entry>
-    <entry key='intellitrac.port'>6037</entry>
+    <!-- Trip Detection Settings -->
+    <entry key='processing.computedAttributes.enable'>true</entry>
+    <entry key='event.enable'>true</entry>
+    <entry key='event.ignoreDuplicateAlerts'>true</entry>
+    
+    <!-- Motion Detection Settings -->
+    <entry key='event.motion.speedThreshold'>5</entry>
+    <entry key='event.motion.minimalTripDistance'>5</entry>
+    <entry key='event.motion.minimalTripDuration'>1000</entry>
+    <entry key='event.overspeed.speedThreshold'>90</entry>
+    
+    <!-- Trip/Parking Settings (matching production exactly) -->
+    <entry key='report.trip.useIgnition'>true</entry>
+    <entry key='report.trip.minimalTripDuration'>1</entry>
+    <entry key='report.trip.minimalTripDistance'>1</entry>
+    <entry key='report.trip.minimalParkingDuration'>999999</entry>
+    <entry key='report.trip.minimalNoDataDuration'>3600</entry>
+    
+    <entry key='server.registerUnknown'>true</entry>
+
+    <!-- <entry key='atrack.custom'>true</entry> -->
+    <entry key='osmand.port'>5155</entry>
+    <!-- <entry key='intellitrac.port'>6037</entry> -->
+
+
 
 </properties>
