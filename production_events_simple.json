@@ -1,0 +1,5282 @@
+﻿[
+    {
+        "id":  1522,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-01-11T20:12:24.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1523,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-01-11T20:12:24.000+00:00",
+        "positionId":  4494,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1524,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-01-11T20:12:33.000+00:00",
+        "positionId":  4495,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1525,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-01-11T20:15:31.000+00:00",
+        "positionId":  4507,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1526,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-01-11T20:15:35.000+00:00",
+        "positionId":  4508,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1527,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-01-11T20:15:39.000+00:00",
+        "positionId":  4509,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1528,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-01-11T20:15:49.000+00:00",
+        "positionId":  4510,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1529,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-01-11T20:16:12.000+00:00",
+        "positionId":  4513,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1530,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-01-11T20:16:16.000+00:00",
+        "positionId":  4514,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1531,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-01-11T20:16:19.000+00:00",
+        "positionId":  4515,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1532,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-01-11T20:16:29.000+00:00",
+        "positionId":  4516,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1533,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-01-11T20:27:59.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1534,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-01-17T01:50:51.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1535,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-01-17T01:51:33.000+00:00",
+        "positionId":  4530,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1536,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-01-17T01:51:36.000+00:00",
+        "positionId":  4531,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1537,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-01-17T01:52:13.000+00:00",
+        "positionId":  4542,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1538,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-01-17T01:52:23.000+00:00",
+        "positionId":  4543,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1539,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-01-17T01:52:45.000+00:00",
+        "positionId":  4546,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1540,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-01-17T01:52:48.000+00:00",
+        "positionId":  4547,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1541,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-01-17T02:03:44.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1546,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-01-18T17:36:45.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1547,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-01-18T17:36:45.000+00:00",
+        "positionId":  4571,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1548,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-01-18T17:36:55.000+00:00",
+        "positionId":  4572,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1549,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-01-18T17:37:29.000+00:00",
+        "positionId":  4576,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1550,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-01-18T17:37:32.000+00:00",
+        "positionId":  4577,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1551,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-01-18T17:47:22.000+00:00",
+        "positionId":  4619,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1552,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-01-18T17:47:32.000+00:00",
+        "positionId":  4620,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1553,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-01-18T17:48:37.000+00:00",
+        "positionId":  4627,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1554,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-01-18T17:48:40.000+00:00",
+        "positionId":  4628,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1555,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-01-18T17:51:13.000+00:00",
+        "positionId":  4636,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1556,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-01-18T17:51:23.000+00:00",
+        "positionId":  4637,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1557,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-01-18T17:52:58.000+00:00",
+        "positionId":  4647,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1558,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-01-18T17:53:02.000+00:00",
+        "positionId":  4648,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1559,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-01-18T18:04:58.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1560,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-01-18T18:58:58.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1561,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-01-18T18:58:58.000+00:00",
+        "positionId":  4679,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1562,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-01-18T18:59:07.000+00:00",
+        "positionId":  4680,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1563,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-01-18T18:59:28.000+00:00",
+        "positionId":  4682,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1564,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-01-18T18:59:29.000+00:00",
+        "positionId":  4683,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1565,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-01-18T18:59:53.000+00:00",
+        "positionId":  4692,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1566,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-01-18T19:00:03.000+00:00",
+        "positionId":  4693,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1567,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-01-18T19:00:12.000+00:00",
+        "positionId":  4694,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1568,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-01-18T19:00:14.000+00:00",
+        "positionId":  4695,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1569,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-01-18T19:21:03.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1570,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-01-18T21:57:41.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1571,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-01-18T21:57:41.000+00:00",
+        "positionId":  4948,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1572,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-01-18T21:57:46.000+00:00",
+        "positionId":  4949,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1573,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-01-18T21:58:06.000+00:00",
+        "positionId":  4953,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1574,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-01-18T21:58:11.000+00:00",
+        "positionId":  4954,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1575,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-01-18T21:58:26.000+00:00",
+        "positionId":  4957,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1576,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-01-18T21:58:31.000+00:00",
+        "positionId":  4958,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1577,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-01-18T21:58:59.000+00:00",
+        "positionId":  4963,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1578,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-01-18T21:59:01.000+00:00",
+        "positionId":  4964,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1579,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-01-18T22:09:51.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1580,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-01-27T21:47:07.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1581,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-01-27T21:47:07.000+00:00",
+        "positionId":  4975,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1582,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-01-27T21:57:08.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1583,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-01-28T21:24:57.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1584,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-01-28T21:24:57.000+00:00",
+        "positionId":  4976,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1585,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-01-28T21:26:11.000+00:00",
+        "positionId":  4991,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1586,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-01-28T21:26:17.000+00:00",
+        "positionId":  4992,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1587,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-01-28T21:26:47.000+00:00",
+        "positionId":  4998,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1588,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-01-28T21:26:52.000+00:00",
+        "positionId":  4999,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1589,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-01-28T21:29:16.000+00:00",
+        "positionId":  5020,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1590,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-01-28T21:29:21.000+00:00",
+        "positionId":  5021,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1591,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-01-28T21:29:36.000+00:00",
+        "positionId":  5024,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1592,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-01-28T21:29:41.000+00:00",
+        "positionId":  5025,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1593,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-01-28T21:32:15.000+00:00",
+        "positionId":  5053,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1594,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-01-28T21:32:20.000+00:00",
+        "positionId":  5054,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1595,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-01-28T21:32:26.000+00:00",
+        "positionId":  5055,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1596,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-01-28T21:32:30.000+00:00",
+        "positionId":  5056,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1597,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-01-28T21:38:03.000+00:00",
+        "positionId":  5078,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1598,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-01-28T21:38:04.000+00:00",
+        "positionId":  5079,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1599,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-01-28T21:38:34.000+00:00",
+        "positionId":  5085,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1600,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-01-28T21:38:42.000+00:00",
+        "positionId":  5086,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1601,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-01-28T21:41:35.000+00:00",
+        "positionId":  5121,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1602,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-01-28T21:41:40.000+00:00",
+        "positionId":  5122,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1603,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-01-28T22:06:12.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1785,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-03-01T17:32:20.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1786,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-01T17:32:20.000+00:00",
+        "positionId":  5767,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1787,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-03-01T17:32:25.000+00:00",
+        "positionId":  5768,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1788,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-01T17:36:21.000+00:00",
+        "positionId":  5806,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1789,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-01T17:36:28.000+00:00",
+        "positionId":  5807,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1790,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-01T17:37:03.000+00:00",
+        "positionId":  5814,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1791,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-01T17:37:10.000+00:00",
+        "positionId":  5815,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1792,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-01T17:40:38.000+00:00",
+        "positionId":  5834,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1793,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-03-01T17:40:43.000+00:00",
+        "positionId":  5835,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1794,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-01T17:40:48.000+00:00",
+        "positionId":  5836,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1795,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-03-01T17:40:53.000+00:00",
+        "positionId":  5837,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1796,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-01T17:45:17.000+00:00",
+        "positionId":  5853,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1797,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-01T17:45:19.000+00:00",
+        "positionId":  5854,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1798,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-03-01T18:00:22.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1799,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-03-04T00:11:16.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1800,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-04T00:11:50.000+00:00",
+        "positionId":  5893,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1801,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-03-04T00:21:50.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1802,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-03-04T00:33:57.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1803,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-04T00:33:57.000+00:00",
+        "positionId":  5894,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1804,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-03-04T00:34:31.000+00:00",
+        "positionId":  5901,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1805,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-04T00:34:31.000+00:00",
+        "positionId":  5901,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1806,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-03-04T00:44:31.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1807,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-03-04T00:55:30.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1808,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-04T00:55:30.000+00:00",
+        "positionId":  5902,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1809,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-04T00:55:50.000+00:00",
+        "positionId":  5906,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1810,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-04T00:56:00.000+00:00",
+        "positionId":  5907,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1811,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-04T00:56:15.000+00:00",
+        "positionId":  5910,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1812,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-03-04T01:06:15.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1813,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-03-04T03:49:30.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1814,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-04T03:49:30.000+00:00",
+        "positionId":  5911,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1815,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-03-04T03:49:33.000+00:00",
+        "positionId":  5912,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1816,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-04T03:49:49.000+00:00",
+        "positionId":  5915,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1817,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-04T03:49:59.000+00:00",
+        "positionId":  5916,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1818,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-04T03:50:09.000+00:00",
+        "positionId":  5918,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1819,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-03-04T04:00:09.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1820,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-03-04T04:08:45.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1821,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-04T04:08:45.000+00:00",
+        "positionId":  5919,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1822,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-04T04:09:04.000+00:00",
+        "positionId":  5923,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1823,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-04T04:09:24.000+00:00",
+        "positionId":  5924,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1824,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-04T04:09:44.000+00:00",
+        "positionId":  5927,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1825,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-03-04T04:19:44.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1826,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-03-04T04:34:31.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1827,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-04T04:34:31.000+00:00",
+        "positionId":  5928,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1828,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-03-04T04:44:31.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1829,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-03-04T05:25:01.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1830,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-04T05:25:01.000+00:00",
+        "positionId":  5929,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1831,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-03-04T05:25:51.000+00:00",
+        "positionId":  5930,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1832,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-03-04T05:35:51.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1833,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-03-04T15:40:39.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1834,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-03-04T15:57:55.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1835,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-03-04T16:23:09.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1836,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-03-04T16:40:19.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1837,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-03-04T16:41:46.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1838,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-03-04T16:54:17.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1839,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-03-04T18:06:53.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1840,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-04T18:09:26.000+00:00",
+        "positionId":  5978,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1841,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-03-04T18:09:32.000+00:00",
+        "positionId":  5979,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1842,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-04T18:09:51.000+00:00",
+        "positionId":  5983,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1843,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-03-04T18:10:01.000+00:00",
+        "positionId":  5984,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1844,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-03-04T18:21:38.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1845,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-03-04T18:46:19.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1846,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-03-04T18:59:54.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1847,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-03-05T14:07:10.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1848,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-05T14:07:19.000+00:00",
+        "positionId":  6051,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1849,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-03-05T14:07:24.000+00:00",
+        "positionId":  6052,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1850,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-05T14:07:58.000+00:00",
+        "positionId":  6059,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1851,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-03-05T14:08:04.000+00:00",
+        "positionId":  6060,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1852,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-05T14:08:19.000+00:00",
+        "positionId":  6063,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1853,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-03-05T14:08:23.000+00:00",
+        "positionId":  6064,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1854,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-05T14:08:38.000+00:00",
+        "positionId":  6067,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1855,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-03-05T14:08:44.000+00:00",
+        "positionId":  6068,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1856,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-03-05T14:18:59.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1857,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-03-06T02:32:52.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1858,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-06T02:32:52.000+00:00",
+        "positionId":  6072,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1859,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-03-06T02:32:56.000+00:00",
+        "positionId":  6073,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1860,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-06T02:37:03.000+00:00",
+        "positionId":  6097,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1861,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-03-06T02:37:06.000+00:00",
+        "positionId":  6098,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1862,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-06T02:46:37.000+00:00",
+        "positionId":  6170,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1863,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-03-06T02:46:42.000+00:00",
+        "positionId":  6171,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1864,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-03-06T02:46:57.000+00:00",
+        "positionId":  6174,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1865,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-03-06T02:47:03.000+00:00",
+        "positionId":  6175,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1866,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-03-06T02:57:47.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1867,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-03-14T21:35:03.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1868,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-03-14T21:35:03.000+00:00",
+        "positionId":  6185,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1869,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-03-14T21:39:42.000+00:00",
+        "positionId":  6241,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  1870,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-03-14T21:58:30.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3259,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-05-27T19:52:04.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3260,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-05-27T19:52:07.000+00:00",
+        "positionId":  20420,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3261,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-05-27T19:52:15.000+00:00",
+        "positionId":  20421,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3262,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-05-27T19:52:22.000+00:00",
+        "positionId":  20423,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3263,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-05-27T19:52:29.000+00:00",
+        "positionId":  20424,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3264,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-05-27T19:52:42.000+00:00",
+        "positionId":  20427,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3265,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-05-27T19:52:47.000+00:00",
+        "positionId":  20428,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3266,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-05-27T20:16:38.000+00:00",
+        "positionId":  20615,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3267,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-05-27T20:16:42.000+00:00",
+        "positionId":  20616,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3268,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-05-27T20:18:56.000+00:00",
+        "positionId":  20630,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3269,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-05-27T20:19:00.000+00:00",
+        "positionId":  20631,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3270,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-05-27T20:22:54.000+00:00",
+        "positionId":  20677,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3271,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-05-27T20:22:59.000+00:00",
+        "positionId":  20678,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3272,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-05-27T20:23:04.000+00:00",
+        "positionId":  20679,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3273,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-05-27T20:23:09.000+00:00",
+        "positionId":  20680,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3274,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-05-27T20:24:29.000+00:00",
+        "positionId":  20696,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3275,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-05-27T20:24:35.000+00:00",
+        "positionId":  20697,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3276,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-05-27T20:25:19.000+00:00",
+        "positionId":  20706,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3277,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-05-27T20:25:24.000+00:00",
+        "positionId":  20707,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3278,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-05-27T20:26:24.000+00:00",
+        "positionId":  20719,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3279,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-05-27T20:26:30.000+00:00",
+        "positionId":  20720,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3280,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-05-27T20:26:50.000+00:00",
+        "positionId":  20724,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3281,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-05-27T20:26:55.000+00:00",
+        "positionId":  20725,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3282,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-05-27T20:30:35.000+00:00",
+        "positionId":  20769,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3283,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-05-27T20:30:40.000+00:00",
+        "positionId":  20770,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3284,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-05-27T20:31:30.000+00:00",
+        "positionId":  20780,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3285,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-05-27T20:32:42.000+00:00",
+        "positionId":  20781,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3286,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-05-27T20:36:05.000+00:00",
+        "positionId":  20822,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3287,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-05-27T20:36:10.000+00:00",
+        "positionId":  20823,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3288,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-05-27T20:50:00.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3289,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-05-30T20:56:16.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3290,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-05-30T21:09:21.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3706,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-15T00:56:57.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3707,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-15T00:59:13.000+00:00",
+        "positionId":  27310,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3708,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-15T00:59:15.000+00:00",
+        "positionId":  27311,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3709,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-15T01:02:36.000+00:00",
+        "positionId":  27349,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3710,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-15T01:02:41.000+00:00",
+        "positionId":  27350,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3711,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-15T01:04:44.000+00:00",
+        "positionId":  27374,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3712,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-15T01:04:48.000+00:00",
+        "positionId":  27375,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3713,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-15T01:10:14.000+00:00",
+        "positionId":  27438,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3714,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-15T01:10:19.000+00:00",
+        "positionId":  27439,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3715,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-15T01:21:40.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3716,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-15T01:27:28.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3717,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-15T01:37:34.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3718,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-15T01:41:16.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3719,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-15T01:54:53.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3720,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-15T02:01:29.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3721,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-15T02:21:41.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3722,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-15T02:28:47.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3723,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-15T02:38:47.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3724,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-15T02:42:30.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3725,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-15T03:04:46.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3726,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-15T03:05:37.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3727,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-15T04:05:25.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3728,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-15T04:14:39.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3729,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-15T04:30:40.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3730,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-15T04:38:22.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3731,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-15T04:48:22.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3732,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-15T04:52:46.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3733,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-15T05:39:12.000+00:00",
+        "positionId":  27826,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3734,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-15T05:39:15.000+00:00",
+        "positionId":  27827,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3735,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-15T05:44:58.000+00:00",
+        "positionId":  27887,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3736,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-15T05:45:04.000+00:00",
+        "positionId":  27888,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3737,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-15T06:04:23.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3747,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-20T01:37:21.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3748,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-20T01:38:21.000+00:00",
+        "positionId":  28317,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3749,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-20T01:38:25.000+00:00",
+        "positionId":  28318,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3750,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-20T01:39:05.000+00:00",
+        "positionId":  28326,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3751,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-20T01:39:10.000+00:00",
+        "positionId":  28327,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3752,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-20T01:40:35.000+00:00",
+        "positionId":  28344,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3753,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-20T01:40:40.000+00:00",
+        "positionId":  28345,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3754,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-20T01:44:12.000+00:00",
+        "positionId":  28387,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3755,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-20T01:44:18.000+00:00",
+        "positionId":  28388,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3756,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-20T01:45:50.000+00:00",
+        "positionId":  28405,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3757,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-20T01:45:58.000+00:00",
+        "positionId":  28406,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3758,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-20T01:46:52.000+00:00",
+        "positionId":  28417,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3759,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-20T01:46:56.000+00:00",
+        "positionId":  28418,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3760,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-20T01:47:11.000+00:00",
+        "positionId":  28421,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3761,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-20T01:47:15.000+00:00",
+        "positionId":  28422,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3762,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-20T01:48:55.000+00:00",
+        "positionId":  28442,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3763,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-20T01:49:00.000+00:00",
+        "positionId":  28443,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3764,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-20T02:06:07.000+00:00",
+        "positionId":  28643,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3765,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-20T02:06:09.000+00:00",
+        "positionId":  28644,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3766,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-20T02:17:05.000+00:00",
+        "positionId":  28774,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3767,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-20T02:17:10.000+00:00",
+        "positionId":  28775,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3768,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-20T02:18:06.000+00:00",
+        "positionId":  28786,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3769,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-20T02:18:10.000+00:00",
+        "positionId":  28787,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3770,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-20T02:22:02.000+00:00",
+        "positionId":  28833,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3771,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-20T02:22:05.000+00:00",
+        "positionId":  28834,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3772,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-20T02:29:22.000+00:00",
+        "positionId":  28920,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3773,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-20T02:29:27.000+00:00",
+        "positionId":  28921,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3774,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-20T02:29:48.000+00:00",
+        "positionId":  28925,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3775,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-20T02:29:52.000+00:00",
+        "positionId":  28926,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3776,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-20T02:32:53.000+00:00",
+        "positionId":  28962,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3777,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-20T02:32:57.000+00:00",
+        "positionId":  28963,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3778,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-20T02:33:28.000+00:00",
+        "positionId":  28969,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3779,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-20T02:33:33.000+00:00",
+        "positionId":  28970,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3780,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-20T02:35:58.000+00:00",
+        "positionId":  28999,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3781,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-20T02:36:02.000+00:00",
+        "positionId":  29000,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3782,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-20T02:42:06.000+00:00",
+        "positionId":  29072,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3783,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-20T02:42:08.000+00:00",
+        "positionId":  29073,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3784,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-20T02:42:59.000+00:00",
+        "positionId":  29083,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3785,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-20T02:43:04.000+00:00",
+        "positionId":  29084,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3786,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-20T02:43:15.000+00:00",
+        "positionId":  29086,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3787,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-20T02:43:21.000+00:00",
+        "positionId":  29087,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3788,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-20T02:44:04.000+00:00",
+        "positionId":  29096,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3789,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-20T02:44:09.000+00:00",
+        "positionId":  29097,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3790,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-20T02:44:30.000+00:00",
+        "positionId":  29101,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3791,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-20T02:44:35.000+00:00",
+        "positionId":  29102,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3792,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-20T02:45:29.000+00:00",
+        "positionId":  29113,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3793,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-20T02:45:34.000+00:00",
+        "positionId":  29114,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3794,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-20T02:46:30.000+00:00",
+        "positionId":  29125,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3795,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-20T02:46:36.000+00:00",
+        "positionId":  29126,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3796,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-20T02:49:15.000+00:00",
+        "positionId":  29158,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3797,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-20T02:49:20.000+00:00",
+        "positionId":  29159,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3798,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-20T02:49:31.000+00:00",
+        "positionId":  29161,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3799,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-20T02:49:37.000+00:00",
+        "positionId":  29162,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3800,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-20T02:54:03.000+00:00",
+        "positionId":  29201,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3801,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-20T02:54:08.000+00:00",
+        "positionId":  29202,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3802,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-20T03:07:47.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3803,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-20T17:50:28.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3804,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-20T18:05:54.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3805,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-20T23:37:36.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3806,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-20T23:49:00.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3807,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-21T00:07:12.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3808,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-21T00:07:18.000+00:00",
+        "positionId":  29328,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3809,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-21T00:07:23.000+00:00",
+        "positionId":  29329,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3810,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-21T00:08:03.000+00:00",
+        "positionId":  29337,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3811,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-21T00:08:08.000+00:00",
+        "positionId":  29338,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3812,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-21T00:08:13.000+00:00",
+        "positionId":  29339,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3813,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-21T00:08:18.000+00:00",
+        "positionId":  29340,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3814,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-21T00:12:16.000+00:00",
+        "positionId":  29386,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3815,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-21T00:12:22.000+00:00",
+        "positionId":  29387,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3816,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-21T00:12:37.000+00:00",
+        "positionId":  29390,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3817,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-21T00:12:42.000+00:00",
+        "positionId":  29391,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3818,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-21T00:38:30.000+00:00",
+        "positionId":  29639,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3819,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-21T00:38:38.000+00:00",
+        "positionId":  29640,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3820,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-21T00:38:40.000+00:00",
+        "positionId":  29641,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3821,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-21T00:38:45.000+00:00",
+        "positionId":  29642,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3822,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-21T00:38:50.000+00:00",
+        "positionId":  29643,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3823,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-21T00:38:56.000+00:00",
+        "positionId":  29644,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3824,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-21T00:42:33.000+00:00",
+        "positionId":  29687,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3825,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-21T00:42:38.000+00:00",
+        "positionId":  29688,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3826,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-21T00:43:08.000+00:00",
+        "positionId":  29694,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3827,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-21T00:43:13.000+00:00",
+        "positionId":  29695,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3828,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-21T00:43:28.000+00:00",
+        "positionId":  29698,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3829,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-21T00:43:33.000+00:00",
+        "positionId":  29699,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3830,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-21T00:43:38.000+00:00",
+        "positionId":  29700,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3831,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-21T00:43:43.000+00:00",
+        "positionId":  29701,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3832,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-21T00:46:38.000+00:00",
+        "positionId":  29736,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3833,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-21T00:46:43.000+00:00",
+        "positionId":  29737,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3834,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-21T00:59:32.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3835,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-23T15:40:54.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3836,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T15:42:28.000+00:00",
+        "positionId":  29790,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3837,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T15:42:33.000+00:00",
+        "positionId":  29791,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3838,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T15:42:38.000+00:00",
+        "positionId":  29792,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3839,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T15:42:43.000+00:00",
+        "positionId":  29793,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3840,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T15:45:23.000+00:00",
+        "positionId":  29800,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3841,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T15:45:27.000+00:00",
+        "positionId":  29801,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3842,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T15:55:27.000+00:00",
+        "positionId":  29909,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3843,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T15:55:33.000+00:00",
+        "positionId":  29910,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3844,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T15:58:33.000+00:00",
+        "positionId":  29946,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3845,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T15:58:39.000+00:00",
+        "positionId":  29947,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3846,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T15:58:59.000+00:00",
+        "positionId":  29951,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3847,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T15:59:07.000+00:00",
+        "positionId":  29952,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3848,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T16:00:09.000+00:00",
+        "positionId":  29965,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3849,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T16:00:15.000+00:00",
+        "positionId":  29966,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3850,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T16:00:40.000+00:00",
+        "positionId":  29971,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3851,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T16:00:46.000+00:00",
+        "positionId":  29972,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3852,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T16:04:34.000+00:00",
+        "positionId":  30017,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3853,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T16:04:39.000+00:00",
+        "positionId":  30018,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3854,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-23T19:42:59.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3855,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-23T21:24:18.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3856,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T21:24:18.000+00:00",
+        "positionId":  32360,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3857,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T21:24:34.000+00:00",
+        "positionId":  32361,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3858,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T21:27:26.000+00:00",
+        "positionId":  32382,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3859,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T21:27:31.000+00:00",
+        "positionId":  32383,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3860,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T21:28:43.000+00:00",
+        "positionId":  32394,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3861,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T21:28:53.000+00:00",
+        "positionId":  32395,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3862,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T21:36:21.000+00:00",
+        "positionId":  32448,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3863,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T21:36:29.000+00:00",
+        "positionId":  32449,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3864,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T21:38:11.000+00:00",
+        "positionId":  32463,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3865,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T21:38:15.000+00:00",
+        "positionId":  32464,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3866,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T21:45:15.000+00:00",
+        "positionId":  32509,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3867,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T21:45:22.000+00:00",
+        "positionId":  32510,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3868,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T21:47:29.000+00:00",
+        "positionId":  32528,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3869,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T21:47:36.000+00:00",
+        "positionId":  32529,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3870,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T21:53:30.000+00:00",
+        "positionId":  32558,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3871,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T21:53:35.000+00:00",
+        "positionId":  32559,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3872,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T21:56:44.000+00:00",
+        "positionId":  32589,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3873,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T21:56:50.000+00:00",
+        "positionId":  32590,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3874,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T21:57:02.000+00:00",
+        "positionId":  32592,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3875,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T21:57:07.000+00:00",
+        "positionId":  32593,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3876,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-23T22:10:54.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3877,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-06-23T22:25:29.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3878,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T22:30:54.000+00:00",
+        "positionId":  32657,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3879,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T22:30:59.000+00:00",
+        "positionId":  32658,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3880,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T22:32:49.000+00:00",
+        "positionId":  32680,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3881,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T22:32:54.000+00:00",
+        "positionId":  32681,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3882,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T22:32:59.000+00:00",
+        "positionId":  32682,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3883,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T22:33:04.000+00:00",
+        "positionId":  32683,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3884,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T22:38:09.000+00:00",
+        "positionId":  32744,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3885,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T22:38:14.000+00:00",
+        "positionId":  32745,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3886,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T22:39:04.000+00:00",
+        "positionId":  32755,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3887,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T22:39:09.000+00:00",
+        "positionId":  32756,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3888,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T22:42:59.000+00:00",
+        "positionId":  32802,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3889,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T22:43:04.000+00:00",
+        "positionId":  32803,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3890,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T22:44:14.000+00:00",
+        "positionId":  32817,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3891,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T22:44:19.000+00:00",
+        "positionId":  32818,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3892,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T22:44:54.000+00:00",
+        "positionId":  32825,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3893,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T22:44:59.000+00:00",
+        "positionId":  32826,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3894,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T22:45:24.000+00:00",
+        "positionId":  32831,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3895,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T22:45:29.000+00:00",
+        "positionId":  32832,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3896,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T22:45:39.000+00:00",
+        "positionId":  32834,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3897,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T22:45:44.000+00:00",
+        "positionId":  32835,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3898,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T22:45:59.000+00:00",
+        "positionId":  32838,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3899,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T22:46:04.000+00:00",
+        "positionId":  32839,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3900,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T22:46:34.000+00:00",
+        "positionId":  32845,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3901,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T22:46:39.000+00:00",
+        "positionId":  32846,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3902,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T22:47:29.000+00:00",
+        "positionId":  32856,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3903,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T22:47:34.000+00:00",
+        "positionId":  32857,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3904,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T22:48:29.000+00:00",
+        "positionId":  32868,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3905,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T22:48:34.000+00:00",
+        "positionId":  32869,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3906,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T22:48:54.000+00:00",
+        "positionId":  32873,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3907,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T22:48:59.000+00:00",
+        "positionId":  32874,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3908,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T22:49:49.000+00:00",
+        "positionId":  32884,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3909,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T22:49:54.000+00:00",
+        "positionId":  32885,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3910,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T22:52:09.000+00:00",
+        "positionId":  32912,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3911,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T22:52:14.000+00:00",
+        "positionId":  32913,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3912,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T22:54:04.000+00:00",
+        "positionId":  32935,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3913,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T22:54:09.000+00:00",
+        "positionId":  32936,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3914,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T22:54:44.000+00:00",
+        "positionId":  32943,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3915,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T22:54:49.000+00:00",
+        "positionId":  32944,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3916,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T23:02:06.000+00:00",
+        "positionId":  32958,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3917,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T23:02:27.000+00:00",
+        "positionId":  32959,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3918,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T23:03:15.000+00:00",
+        "positionId":  32960,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3919,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T23:03:38.000+00:00",
+        "positionId":  32961,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3920,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T23:06:25.000+00:00",
+        "positionId":  32964,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3921,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T23:07:40.000+00:00",
+        "positionId":  32965,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3922,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T23:11:45.000+00:00",
+        "positionId":  32969,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3923,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T23:11:59.000+00:00",
+        "positionId":  32970,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3924,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-06-23T23:12:42.000+00:00",
+        "positionId":  32976,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3925,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-06-23T23:12:46.000+00:00",
+        "positionId":  32977,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3926,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-06-23T23:22:22.000+00:00",
+        "positionId":  33046,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3927,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-06-23T23:22:24.000+00:00",
+        "positionId":  33047,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  3928,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-06-23T23:34:42.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4125,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-07-18T16:03:52.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4126,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-07-18T21:14:56.000+00:00",
+        "positionId":  48141,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4127,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-07-18T21:15:00.000+00:00",
+        "positionId":  48142,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4128,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-07-18T22:01:49.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4129,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-07-19T19:11:44.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4130,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-07-19T19:11:44.000+00:00",
+        "positionId":  48562,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4131,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-07-19T19:11:51.000+00:00",
+        "positionId":  48563,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4132,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-07-19T19:13:03.000+00:00",
+        "positionId":  48577,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4133,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-07-19T19:13:08.000+00:00",
+        "positionId":  48578,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4134,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-07-19T19:13:14.000+00:00",
+        "positionId":  48579,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4135,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-07-19T19:13:21.000+00:00",
+        "positionId":  48580,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4136,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-07-19T19:14:12.000+00:00",
+        "positionId":  48587,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4137,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-07-19T19:14:18.000+00:00",
+        "positionId":  48588,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4138,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-07-19T19:14:55.000+00:00",
+        "positionId":  48594,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4139,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-07-19T19:15:12.000+00:00",
+        "positionId":  48595,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4140,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-07-19T19:17:04.000+00:00",
+        "positionId":  48615,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4141,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-07-19T19:17:11.000+00:00",
+        "positionId":  48616,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4142,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-07-19T19:17:47.000+00:00",
+        "positionId":  48623,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4143,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-07-19T19:17:50.000+00:00",
+        "positionId":  48624,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4144,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-07-19T19:20:06.000+00:00",
+        "positionId":  48632,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4145,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceStopped",
+        "eventTime":  "2025-07-19T19:20:11.000+00:00",
+        "positionId":  48633,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  4146,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-07-19T19:32:01.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  5022,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-08-06T16:40:41.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  5023,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-08-06T16:40:52.000+00:00",
+        "positionId":  65455,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  5024,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceMoving",
+        "eventTime":  "2025-08-06T16:40:56.000+00:00",
+        "positionId":  65456,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  5025,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOff",
+        "eventTime":  "2025-08-06T16:41:11.000+00:00",
+        "positionId":  65459,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  5026,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-08-06T16:51:26.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  5091,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceOnline",
+        "eventTime":  "2025-08-07T14:01:49.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  5092,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "ignitionOn",
+        "eventTime":  "2025-08-07T14:02:02.000+00:00",
+        "positionId":  65713,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    },
+    {
+        "id":  5093,
+        "attributes":  {
+
+                       },
+        "deviceId":  4,
+        "type":  "deviceUnknown",
+        "eventTime":  "2025-08-07T14:12:02.000+00:00",
+        "positionId":  0,
+        "geofenceId":  0,
+        "maintenanceId":  0
+    }
+]
