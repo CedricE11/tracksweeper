@@ -99,3 +99,220 @@ java.net.BindException: Address already in use: bind
 2025-08-09 12:39:48  INFO: Started o.e.j.s.ServletContextHandler@3b127290{/,null,AVAILABLE}
 2025-08-09 12:39:48  INFO: Started ServerConnector@4b515a01{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
 2025-08-09 12:39:48  INFO: Started Server@7d996aea{STARTING}[11.0.25,sto=0] @5060ms
+2025-08-09 13:17:56  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-08-09 13:17:56  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-08-09 13:17:56  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-08-09 13:17:56  INFO: Character encoding: windows-1252
+2025-08-09 13:17:56  INFO: Version: 6.8.1
+2025-08-09 13:17:56  INFO: Starting server...
+2025-08-09 13:17:57  INFO: HikariPool-1 - Starting...
+2025-08-09 13:17:57  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2025-08-09 13:17:57  INFO: HikariPool-1 - Start completed.
+2025-08-09 13:17:57  INFO: Set default schema name to PUBLIC
+2025-08-09 13:17:57  INFO: Clearing database change log checksums
+2025-08-09 13:17:57  INFO: Successfully acquired change log lock
+2025-08-09 13:17:58  INFO: Successfully released change log lock
+2025-08-09 13:17:59  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-08-09 13:17:59  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-08-09 13:17:59  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-08-09 13:17:59  INFO: UPDATE SUMMARY
+2025-08-09 13:17:59  INFO: Run:                          0
+2025-08-09 13:17:59  INFO: Previously run:              28
+2025-08-09 13:17:59  INFO: Filtered out:                 0
+2025-08-09 13:17:59  INFO: -------------------------------
+2025-08-09 13:17:59  INFO: Total change sets:           28
+
+2025-08-09 13:17:59  INFO: Update summary generated
+2025-08-09 13:17:59  INFO: Successfully released change log lock
+2025-08-09 13:17:59  INFO: Command execution complete
+2025-08-09 13:18:00  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-08-09 13:18:00  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-08-09 13:18:00  INFO: jetty-11.0.25; built: 2025-03-13T00:15:57.301Z; git: a2e9fae3ad8320f2a713d4fa29bba356a99d1295; jvm 17.0.16+8
+2025-08-09 13:18:00  INFO: Started o.t.w.@3d78e113{/,null,AVAILABLE}
+2025-08-09 13:18:00  INFO: Session workerName=node0
+2025-08-09 13:18:01  INFO: Started o.e.j.s.ServletContextHandler@7513ff3f{/,null,AVAILABLE}
+2025-08-09 13:18:01  INFO: Started ServerConnector@486c2cf7{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2025-08-09 13:18:01  INFO: Started Server@28051713{STARTING}[11.0.25,sto=0] @5371ms
+2025-08-09 13:23:15  INFO: [Te5695808] connected
+2025-08-09 13:23:15  INFO: [Te5695808: tek < 0:0:0:0:0:0:0:1] GET / HTTP/1.1\r\nHost: localhost:5173\r\nConnection: keep-alive\r\nsec-ch-ua: "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"\r\nsec-ch-ua-mobile: ?0\r\nsec-ch-ua-platform: "Windows"\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nSec-Fetch-Dest: document\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept-Language: en-US,en-CA;q=0.9,en;q=0.8,fr-CA;q=0.7,fr;q=0.6\r\nCookie: JSESSIONID=node010op75z615uag9ptmmbormzqk0.node0\r\n\r\n
+2025-08-09 13:23:15  WARN: Unknown device - 454502f312e310d (0:0:0:0:0:0:0:1)
+2025-08-09 13:23:15  WARN: Unknown device - 8726f6d69756d22 (0:0:0:0:0:0:0:1)
+2025-08-09 13:23:15  WARN: Unknown device - 46f7773220d0a55 (0:0:0:0:0:0:0:1)
+2025-08-09 13:23:15  WARN: Unknown device - 9204170706c6557 (0:0:0:0:0:0:0:1)
+2025-08-09 13:23:15  WARN: Unknown device - c2c6170706c6963 (0:0:0:0:0:0:0:1)
+2025-08-09 13:23:15  WARN: Unknown device - 170706c69636174 (0:0:0:0:0:0:0:1)
+2025-08-09 13:23:15  WARN: Unknown device - 5632d4665746368 (0:0:0:0:0:0:0:1)
+2025-08-09 13:23:15  WARN: Unknown device - 36570742d4c616e (0:0:0:0:0:0:0:1)
+2025-08-09 13:23:32  INFO: [Te5695808] disconnected
+2025-08-09 13:56:34  INFO: [Tfa0616ef] connected
+2025-08-09 13:56:34  INFO: [Tfa0616ef: tek < 0:0:0:0:0:0:0:1] GET /settings/preferences HTTP/1.1\r\nHost: localhost:5173\r\nConnection: keep-alive\r\nsec-ch-ua: "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"\r\nsec-ch-ua-mobile: ?0\r\nsec-ch-ua-platform: "Windows"\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nSec-Fetch-Dest: document\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept-Language: en-US,en-CA;q=0.9,en;q=0.8,fr-CA;q=0.7,fr;q=0.6\r\nCookie: JSESSIONID=node0s2ia9o8gunec5wm9w06s34l1.node0\r\n\r\n
+2025-08-09 13:56:34  WARN: Unknown device - 474696e67732f70 (0:0:0:0:0:0:0:1)
+2025-08-09 13:56:34  WARN: Unknown device - 12d706c6174666f (0:0:0:0:0:0:0:1)
+2025-08-09 13:56:34  WARN: Unknown device - 0743a2074657874 (0:0:0:0:0:0:0:1)
+2025-08-09 13:56:34  WARN: Unknown device - 9676174650d0a53 (0:0:0:0:0:0:0:1)
+2025-08-09 13:58:00  INFO: [Tfa0616ef] disconnected
+2025-08-09 14:04:36  INFO: [Tb3ff7dec] connected
+2025-08-09 14:04:36  INFO: [Tb3ff7dec: tek < 0:0:0:0:0:0:0:1] GET /settings/preferences HTTP/1.1\r\nHost: localhost:5173\r\nConnection: keep-alive\r\nsec-ch-ua: "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"\r\nsec-ch-ua-mobile: ?0\r\nsec-ch-ua-platform: "Windows"\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nSec-Fetch-Dest: document\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept-Language: en-US,en-CA;q=0.9,en;q=0.8,fr-CA;q=0.7,fr;q=0.6\r\nCookie: JSESSIONID=node0s2ia9o8gunec5wm9w06s34l1.node0\r\n\r\n
+2025-08-09 14:04:36  WARN: Unknown device - 474696e67732f70 (0:0:0:0:0:0:0:1)
+2025-08-09 14:04:36  WARN: Unknown device - 12d706c6174666f (0:0:0:0:0:0:0:1)
+2025-08-09 14:04:36  WARN: Unknown device - 0743a2074657874 (0:0:0:0:0:0:0:1)
+2025-08-09 14:04:36  WARN: Unknown device - 9676174650d0a53 (0:0:0:0:0:0:0:1)
+2025-08-09 14:17:45  INFO: [Tb3ff7dec] disconnected
+2025-08-09 14:59:05  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-08-09 14:59:05  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-08-09 14:59:05  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-08-09 14:59:05  INFO: Character encoding: windows-1252
+2025-08-09 14:59:05  INFO: Version: 6.8.1
+2025-08-09 14:59:05  INFO: Starting server...
+2025-08-09 14:59:05  INFO: HikariPool-1 - Starting...
+2025-08-09 14:59:06  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2025-08-09 14:59:06  INFO: HikariPool-1 - Start completed.
+2025-08-09 14:59:06  INFO: Set default schema name to PUBLIC
+2025-08-09 14:59:06  INFO: Clearing database change log checksums
+2025-08-09 14:59:06  INFO: Successfully acquired change log lock
+2025-08-09 14:59:06  INFO: Successfully released change log lock
+2025-08-09 14:59:07  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-08-09 14:59:08  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-08-09 14:59:08  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-08-09 14:59:08  INFO: UPDATE SUMMARY
+2025-08-09 14:59:08  INFO: Run:                          0
+2025-08-09 14:59:08  INFO: Previously run:              28
+2025-08-09 14:59:08  INFO: Filtered out:                 0
+2025-08-09 14:59:08  INFO: -------------------------------
+2025-08-09 14:59:08  INFO: Total change sets:           28
+
+2025-08-09 14:59:08  INFO: Update summary generated
+2025-08-09 14:59:08  INFO: Successfully released change log lock
+2025-08-09 14:59:08  INFO: Command execution complete
+2025-08-09 14:59:09  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-08-09 14:59:09  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-08-09 14:59:09  INFO: jetty-11.0.25; built: 2025-03-13T00:15:57.301Z; git: a2e9fae3ad8320f2a713d4fa29bba356a99d1295; jvm 17.0.16+8
+2025-08-09 14:59:09  INFO: Started o.t.w.@3d78e113{/,null,AVAILABLE}
+2025-08-09 14:59:09  INFO: Session workerName=node0
+2025-08-09 14:59:10  INFO: Started o.e.j.s.ServletContextHandler@7513ff3f{/,null,AVAILABLE}
+2025-08-09 14:59:10  INFO: Started ServerConnector@486c2cf7{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2025-08-09 14:59:10  INFO: Started Server@28051713{STARTING}[11.0.25,sto=0] @6406ms
