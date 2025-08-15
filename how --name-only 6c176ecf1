@@ -1,0 +1,10 @@
+[33m2e4be1912[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32msweeper-features[m[33m)[m application start/restart script
+[33m6c176ecf1[m Update traccar-web submodule with improved visible reports dropdown UI
+[33mb96751b1f[m report types selection
+[33mf2f27ea0a[m last commit + cleanup
+[33m5816f0e56[m[33m ([m[1;33mtag: [m[1;33mchanged-trips-report-for-multi-select[m[33m, [m[1;31morigin/sweeper-features[m[33m)[m successfully changed UI + added trips
+[33m94c14b4e0[m after first change to UI
+[33maef1772a8[m functioning application, no data yet
+[33m8985376cd[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m Add missing query param
+[33mb9bde322a[m Calc and check geo boundaries
+[33m272acfe18[m Migrate coordinate to record
