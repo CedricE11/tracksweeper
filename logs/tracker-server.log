@@ -3526,3 +3526,2459 @@ Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/cedri/O
 	at org.h2.mvstore.db.Store.<init>(Store.java:133)
 	... 54 more
 
+2025-09-29 06:41:41  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 06:41:41  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 06:41:41  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 06:41:41  INFO: Character encoding: windows-1252
+2025-09-29 06:41:41  INFO: Version: 6.8.1
+2025-09-29 06:41:41  INFO: Starting server...
+2025-09-29 06:41:41  INFO: HikariPool-1 - Starting...
+2025-09-29 06:41:42  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2025-09-29 06:41:42  INFO: HikariPool-1 - Start completed.
+2025-09-29 06:41:42  INFO: Set default schema name to PUBLIC
+2025-09-29 06:41:42  INFO: Clearing database change log checksums
+2025-09-29 06:41:42  INFO: Successfully acquired change log lock
+2025-09-29 06:41:42  INFO: Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2025-09-29 06:41:42  INFO: Successfully released change log lock
+2025-09-29 06:41:43  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 06:41:44  INFO: Successfully acquired change log lock
+2025-09-29 06:41:44  INFO: Using deploymentId: 9153304135
+2025-09-29 06:41:44  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 06:41:44  INFO: Table tc_attributes created
+2025-09-29 06:41:44  INFO: Table tc_calendars created
+2025-09-29 06:41:44  INFO: Table tc_commands created
+2025-09-29 06:41:44  INFO: Table tc_device_attribute created
+2025-09-29 06:41:44  INFO: Table tc_device_command created
+2025-09-29 06:41:44  INFO: Table tc_device_driver created
+2025-09-29 06:41:44  INFO: Table tc_device_geofence created
+2025-09-29 06:41:44  INFO: Table tc_device_maintenance created
+2025-09-29 06:41:44  INFO: Table tc_device_notification created
+2025-09-29 06:41:44  INFO: Table tc_devices created
+2025-09-29 06:41:44  INFO: Table tc_drivers created
+2025-09-29 06:41:44  INFO: Table tc_events created
+2025-09-29 06:41:44  INFO: Table tc_geofences created
+2025-09-29 06:41:44  INFO: Table tc_group_attribute created
+2025-09-29 06:41:44  INFO: Table tc_group_command created
+2025-09-29 06:41:44  INFO: Table tc_group_driver created
+2025-09-29 06:41:44  INFO: Table tc_group_geofence created
+2025-09-29 06:41:44  INFO: Table tc_group_maintenance created
+2025-09-29 06:41:44  INFO: Table tc_group_notification created
+2025-09-29 06:41:44  INFO: Table tc_groups created
+2025-09-29 06:41:44  INFO: Table tc_maintenances created
+2025-09-29 06:41:44  INFO: Table tc_notifications created
+2025-09-29 06:41:44  INFO: Table tc_positions created
+2025-09-29 06:41:44  INFO: Table tc_servers created
+2025-09-29 06:41:44  INFO: Table tc_statistics created
+2025-09-29 06:41:44  INFO: Table tc_user_attribute created
+2025-09-29 06:41:44  INFO: Table tc_user_calendar created
+2025-09-29 06:41:44  INFO: Table tc_user_command created
+2025-09-29 06:41:44  INFO: Table tc_user_device created
+2025-09-29 06:41:44  INFO: Table tc_user_driver created
+2025-09-29 06:41:44  INFO: Table tc_user_geofence created
+2025-09-29 06:41:44  INFO: Table tc_user_group created
+2025-09-29 06:41:44  INFO: Table tc_user_maintenance created
+2025-09-29 06:41:44  INFO: Table tc_user_notification created
+2025-09-29 06:41:44  INFO: Table tc_user_user created
+2025-09-29 06:41:44  INFO: Table tc_users created
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_device_command (commandid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_device_command (deviceid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_device_driver (deviceid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_device_driver (driverid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_device_geofence (deviceid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_device_geofence (geofenceid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_device_maintenance (deviceid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_device_maintenance (maintenanceid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_device_notification (deviceid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_device_notification (notificationid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_devices (groupid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_events (deviceid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_geofences (calendarid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_group_attribute (attributeid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_group_attribute (groupid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_group_command (commandid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_group_command (groupid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_group_driver (driverid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_group_driver (groupid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_group_geofence (geofenceid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_group_geofence (groupid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_group_maintenance (groupid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_group_maintenance (maintenanceid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_group_notification (groupid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_group_notification (notificationid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_notifications (calendarid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_positions (deviceid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_attribute (attributeid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_attribute (userid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_calendar (calendarid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_calendar (userid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_command (commandid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_command (userid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_device_attribute (attributeid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_device_attribute (deviceid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_device (deviceid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_device (userid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_driver (driverid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_driver (userid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_geofence (geofenceid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_geofence (userid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_group (groupid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_group (userid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_maintenance (maintenanceid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_maintenance (userid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_notification (notificationid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_notification (userid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_user (userid)
+2025-09-29 06:41:44  INFO: New row inserted into tc_servers
+2025-09-29 06:41:44  INFO: ChangeSet changelog-4.0-clean::changelog-4.0-clean::author ran successfully in 221ms
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_groups (groupid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_user (manageduserid)
+2025-09-29 06:41:44  INFO: ChangeSet changelog-4.0-clean::changelog-4.0-clean-common::author ran successfully in 5ms
+2025-09-29 06:41:44  INFO: Marking ChangeSet: "changelog-4.1::changelog-4.1-mssql::author" as ran despite precondition failure due to onFail='MARK_RAN': 
+          schema/changelog-master.xml : DBMS Precondition failed: expected mssql, got h2
+
+2025-09-29 06:41:44  INFO: Index user_device_user_id created
+2025-09-29 06:41:44  INFO: Index position_deviceid_fixtime created
+2025-09-29 06:41:44  INFO: ChangeSet changelog-4.7::changelog-4.7::author ran successfully in 52ms
+2025-09-29 06:41:44  INFO: Index event_deviceid_servertime created
+2025-09-29 06:41:44  INFO: ChangeSet changelog-4.9::changelog-4.9::author ran successfully in 2ms
+2025-09-29 06:41:44  INFO: Columns protocols(VARCHAR(4096)) added to tc_statistics
+2025-09-29 06:41:44  INFO: ChangeSet changelog-4.10::changelog-4.10::author ran successfully in 19ms
+2025-09-29 06:41:44  INFO: Columns announcement(VARCHAR(4000)) added to tc_servers
+2025-09-29 06:41:44  INFO: ChangeSet changelog-4.11::changelog-4.11::author ran successfully in 7ms
+2025-09-29 06:41:44  INFO: Column tc_events.servertime renamed to eventtime
+2025-09-29 06:41:44  INFO: ChangeSet changelog-4.13::changelog-4.13::author ran successfully in 2ms
+2025-09-29 06:41:44  INFO: Table tc_orders created
+2025-09-29 06:41:44  INFO: Table tc_user_order created
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_order (userid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_user_order (orderid)
+2025-09-29 06:41:44  INFO: Table tc_group_order created
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_group_order (groupid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_group_order (orderid)
+2025-09-29 06:41:44  INFO: Table tc_device_order created
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_device_order (deviceid)
+2025-09-29 06:41:44  INFO: Foreign key constraint added to tc_device_order (orderid)
+2025-09-29 06:41:44  INFO: ChangeSet changelog-4.15::changelog-4.15::author ran successfully in 16ms
+2025-09-29 06:41:44  INFO: Columns disablereports(BOOLEAN) added to tc_servers
+2025-09-29 06:41:44  INFO: Columns disablereports(BOOLEAN) added to tc_users
+2025-09-29 06:41:44  INFO: Column tc_orders.toAddress renamed to toaddresstmp
+2025-09-29 06:41:44  INFO: Column tc_orders.fromAddress renamed to fromaddresstmp
+2025-09-29 06:41:44  INFO: Column tc_orders.toaddresstmp renamed to toaddress
+2025-09-29 06:41:44  INFO: Column tc_orders.fromaddresstmp renamed to fromaddress
+2025-09-29 06:41:44  INFO: ChangeSet changelog-5.0::changelog-5.0::author ran successfully in 30ms
+2025-09-29 06:41:44  INFO: Index idx_drivers_uniqueid created
+2025-09-29 06:41:44  INFO: Index idx_devices_uniqueid created
+2025-09-29 06:41:44  INFO: Index idx_users_email created
+2025-09-29 06:41:44  INFO: Index idx_users_login created
+2025-09-29 06:41:44  INFO: Index idx_users_token created
+2025-09-29 06:41:44  INFO: Columns overlayurl(VARCHAR(512)) added to tc_servers
+2025-09-29 06:41:44  INFO: ChangeSet changelog-5.1::changelog-5.1::author ran successfully in 7ms
+2025-09-29 06:41:44  INFO: Columns status(CHAR(8)) added to tc_devices
+2025-09-29 06:41:44  INFO: Columns geofenceids(VARCHAR(128)) added to tc_devices
+2025-09-29 06:41:44  INFO: ChangeSet changelog-5.2::changelog-5.2::author ran successfully in 19ms
+2025-09-29 06:41:44  INFO: Columns fixedemail(BOOLEAN) added to tc_servers
+2025-09-29 06:41:44  INFO: Columns fixedemail(BOOLEAN) added to tc_users
+2025-09-29 06:41:44  INFO: Columns expirationtime(TIMESTAMP) added to tc_devices
+2025-09-29 06:41:44  INFO: Table tc_keystore created
+2025-09-29 06:41:44  INFO: Index idx_users_token dropped from table tc_users
+2025-09-29 06:41:44  INFO: Column tc_users.token dropped
+2025-09-29 06:41:44  INFO: ChangeSet changelog-5.3::changelog-5.3::author ran successfully in 29ms
+2025-09-29 06:41:44  INFO: Columns motionstate(BOOLEAN),motiontime(TIMESTAMP),motiondistance(DOUBLE),overspeedstate(BOOLEAN),overspeedtime(TIMESTAMP),overspeedgeofenceid(INT) added to tc_devices
+2025-09-29 06:41:44  INFO: Table tc_commands_queue created
+2025-09-29 06:41:45  INFO: Foreign key constraint added to tc_commands_queue (deviceid)
+2025-09-29 06:41:45  INFO: Index idx_commands_queue_deviceid created
+2025-09-29 06:41:45  INFO: ChangeSet changelog-5.4::changelog-5.4::author ran successfully in 59ms
+2025-09-29 06:41:45  INFO: Column tc_commands_queue.description dropped
+2025-09-29 06:41:45  INFO: ChangeSet changelog-5.5::changelog-5.5::author ran successfully in 6ms
+2025-09-29 06:41:45  INFO: Columns motionstreak(BOOLEAN) added to tc_devices
+2025-09-29 06:41:45  INFO: Table tc_reports created
+2025-09-29 06:41:45  INFO: Foreign key constraint added to tc_reports (calendarid)
+2025-09-29 06:41:45  INFO: Table tc_user_report created
+2025-09-29 06:41:45  INFO: Foreign key constraint added to tc_user_report (userid)
+2025-09-29 06:41:45  INFO: Foreign key constraint added to tc_user_report (reportid)
+2025-09-29 06:41:45  INFO: Table tc_group_report created
+2025-09-29 06:41:45  INFO: Foreign key constraint added to tc_group_report (groupid)
+2025-09-29 06:41:45  INFO: Foreign key constraint added to tc_group_report (reportid)
+2025-09-29 06:41:45  INFO: Table tc_device_report created
+2025-09-29 06:41:45  INFO: Foreign key constraint added to tc_device_report (deviceid)
+2025-09-29 06:41:45  INFO: Foreign key constraint added to tc_device_report (reportid)
+2025-09-29 06:41:45  INFO: ChangeSet changelog-5.6::changelog-5.6::author ran successfully in 28ms
+2025-09-29 06:41:45  INFO: Columns commandid(INT) added to tc_notifications
+2025-09-29 06:41:45  INFO: Foreign key constraint added to tc_notifications (commandid)
+2025-09-29 06:41:45  INFO: ChangeSet changelog-5.7::changelog-5.7::author ran successfully in 8ms
+2025-09-29 06:41:45  INFO: Column tc_devices.geofenceids dropped
+2025-09-29 06:41:45  INFO: Columns geofenceids(VARCHAR(128)) added to tc_positions
+2025-09-29 06:41:45  INFO: ChangeSet changelog-5.8::changelog-5.8::author ran successfully in 15ms
+2025-09-29 06:41:45  INFO: Columns calendarid(INT) added to tc_devices
+2025-09-29 06:41:45  INFO: Foreign key constraint added to tc_devices (calendarid)
+2025-09-29 06:41:45  INFO: ChangeSet changelog-5.9::changelog-5.9::author ran successfully in 8ms
+2025-09-29 06:41:45  INFO: Columns totpkey(VARCHAR(64)) added to tc_users
+2025-09-29 06:41:45  INFO: ChangeSet changelog-5.10::changelog-5.10::author ran successfully in 7ms
+2025-09-29 06:41:45  INFO: Columns temporary(BOOLEAN) added to tc_users
+2025-09-29 06:41:45  INFO: ChangeSet changelog-5.11::changelog-5.11::author ran successfully in 6ms
+2025-09-29 06:41:45  INFO: Column tc_servers.twelvehourformat dropped
+2025-09-29 06:41:45  INFO: Column tc_users.twelvehourformat dropped
+2025-09-29 06:41:45  INFO: Columns priority(INT) added to tc_attributes
+2025-09-29 06:41:45  INFO: ChangeSet changelog-6.2::changelog-6.2::author ran successfully in 20ms
+2025-09-29 06:41:45  INFO: Marking ChangeSet: "changelog-6.3::changelog-6.3-old::author" as ran despite precondition failure due to onFail='MARK_RAN': 
+          schema/changelog-master.xml : Foreign Key PUBLIC.fk_event_deviceid does not exist
+
+2025-09-29 06:41:45  INFO: Foreign key fk_events_deviceid dropped
+2025-09-29 06:41:45  INFO: Foreign key fk_positions_deviceid dropped
+2025-09-29 06:41:45  INFO: ChangeSet changelog-6.3::changelog-6.3-new::author ran successfully in 69ms
+2025-09-29 06:41:45  INFO: Columns description(VARCHAR(4000)) added to tc_notifications
+2025-09-29 06:41:45  INFO: ChangeSet changelog-6.6::changelog-6.6::author ran successfully in 5ms
+2025-09-29 06:41:45  INFO: Table tc_actions created
+2025-09-29 06:41:45  INFO: ChangeSet changelog-6.7.0::changelog-6.7.0::author ran successfully in 9ms
+2025-09-29 06:41:45  INFO: Marking ChangeSet: "changelog-6.8.0::changelog-6.8.0-timescale::author" as ran despite precondition failure due to onFail='MARK_RAN': 
+          schema/changelog-master.xml : DBMS Precondition failed: expected postgresql, got h2
+
+2025-09-29 06:41:45  INFO: Columns motionpositionid(INT) added to tc_devices
+2025-09-29 06:41:45  INFO: ChangeSet changelog-6.9.0::changelog-6.9.0::author ran successfully in 6ms
+2025-09-29 06:41:45  INFO: UPDATE SUMMARY
+2025-09-29 06:41:45  INFO: Run:                         28
+2025-09-29 06:41:45  INFO: Previously run:               0
+2025-09-29 06:41:45  INFO: Filtered out:                 0
+2025-09-29 06:41:45  INFO: -------------------------------
+2025-09-29 06:41:45  INFO: Total change sets:           28
+
+2025-09-29 06:41:45  INFO: Update summary generated
+2025-09-29 06:41:45  INFO: Update command completed successfully.
+2025-09-29 06:41:45  INFO: Successfully released change log lock
+2025-09-29 06:41:45  INFO: Command execution complete
+2025-09-29 06:41:46  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 06:41:46  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 06:41:46  INFO: jetty-11.0.25; built: 2025-03-13T00:15:57.301Z; git: a2e9fae3ad8320f2a713d4fa29bba356a99d1295; jvm 17.0.16+8
+2025-09-29 06:41:46  INFO: Started o.t.w.@1640ba33{/,null,AVAILABLE}
+2025-09-29 06:41:46  INFO: Session workerName=node0
+2025-09-29 06:41:47  INFO: Started o.e.j.s.ServletContextHandler@121dac0d{/,null,AVAILABLE}
+2025-09-29 06:41:47  INFO: Started ServerConnector@33669680{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2025-09-29 06:41:47  INFO: Started Server@1779cf4c{STARTING}[11.0.25,sto=0] @7211ms
+2025-09-29 06:43:02  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 06:43:02  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 06:43:02  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 06:43:02  INFO: Character encoding: windows-1252
+2025-09-29 06:43:02  INFO: Version: 6.8.1
+2025-09-29 06:43:02  INFO: Starting server...
+2025-09-29 06:43:02  INFO: HikariPool-1 - Starting...
+2025-09-29 06:43:03  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2025-09-29 06:43:03  INFO: HikariPool-1 - Start completed.
+2025-09-29 06:43:03  INFO: Set default schema name to PUBLIC
+2025-09-29 06:43:03  INFO: Clearing database change log checksums
+2025-09-29 06:43:03  INFO: Successfully acquired change log lock
+2025-09-29 06:43:03  INFO: Successfully released change log lock
+2025-09-29 06:43:05  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 06:43:05  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 06:43:05  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 06:43:05  INFO: UPDATE SUMMARY
+2025-09-29 06:43:05  INFO: Run:                          0
+2025-09-29 06:43:05  INFO: Previously run:              28
+2025-09-29 06:43:05  INFO: Filtered out:                 0
+2025-09-29 06:43:05  INFO: -------------------------------
+2025-09-29 06:43:05  INFO: Total change sets:           28
+
+2025-09-29 06:43:05  INFO: Update summary generated
+2025-09-29 06:43:05  INFO: Successfully released change log lock
+2025-09-29 06:43:05  INFO: Command execution complete
+2025-09-29 06:43:08  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 06:43:08  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 06:43:08  INFO: jetty-11.0.25; built: 2025-03-13T00:15:57.301Z; git: a2e9fae3ad8320f2a713d4fa29bba356a99d1295; jvm 17.0.16+8
+2025-09-29 06:43:08  INFO: Started o.t.w.@5a75de38{/,null,AVAILABLE}
+2025-09-29 06:43:08  INFO: Session workerName=node0
+2025-09-29 06:43:09  INFO: Started o.e.j.s.ServletContextHandler@396809db{/,null,AVAILABLE}
+2025-09-29 06:43:09  INFO: Started ServerConnector@714e04a2{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2025-09-29 06:43:09  INFO: Started Server@5a9ec27b{STARTING}[11.0.25,sto=0] @8111ms
+2025-09-29 06:44:15  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 06:44:15  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 06:44:15  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 06:44:15  INFO: Character encoding: windows-1252
+2025-09-29 06:44:15  INFO: Version: 6.8.1
+2025-09-29 06:44:15  INFO: Starting server...
+2025-09-29 06:44:15  INFO: HikariPool-1 - Starting...
+2025-09-29 06:44:16  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2025-09-29 06:44:16  INFO: HikariPool-1 - Start completed.
+2025-09-29 06:44:16  INFO: Set default schema name to PUBLIC
+2025-09-29 06:44:16  INFO: Clearing database change log checksums
+2025-09-29 06:44:16  INFO: Successfully acquired change log lock
+2025-09-29 06:44:16  INFO: Successfully released change log lock
+2025-09-29 06:44:20  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 06:44:20  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 06:44:20  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 06:44:20  INFO: UPDATE SUMMARY
+2025-09-29 06:44:20  INFO: Run:                          0
+2025-09-29 06:44:20  INFO: Previously run:              28
+2025-09-29 06:44:20  INFO: Filtered out:                 0
+2025-09-29 06:44:20  INFO: -------------------------------
+2025-09-29 06:44:20  INFO: Total change sets:           28
+
+2025-09-29 06:44:20  INFO: Update summary generated
+2025-09-29 06:44:20  INFO: Successfully released change log lock
+2025-09-29 06:44:20  INFO: Command execution complete
+2025-09-29 06:44:22  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 06:44:22  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 06:44:23  INFO: jetty-11.0.25; built: 2025-03-13T00:15:57.301Z; git: a2e9fae3ad8320f2a713d4fa29bba356a99d1295; jvm 17.0.16+8
+2025-09-29 06:44:23  INFO: Started o.t.w.@3d78e113{/,null,AVAILABLE}
+2025-09-29 06:44:23  INFO: Session workerName=node0
+2025-09-29 06:44:24  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 06:44:24  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 06:44:24  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 06:44:24  INFO: Character encoding: windows-1252
+2025-09-29 06:44:24  INFO: Version: 6.8.1
+2025-09-29 06:44:24  INFO: Starting server...
+2025-09-29 06:44:24  INFO: Started o.e.j.s.ServletContextHandler@7513ff3f{/,null,AVAILABLE}
+2025-09-29 06:44:24  INFO: HikariPool-1 - Starting...
+2025-09-29 06:44:24  INFO: Started ServerConnector@486c2cf7{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2025-09-29 06:44:24  INFO: Started Server@28051713{STARTING}[11.0.25,sto=0] @10557ms
+2025-09-29 06:44:26 ERROR: Main method error - 
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:605)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:592)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:101)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at org.traccar.storage.DatabaseModule.provideDataSource(DatabaseModule.java:80)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.MainModule.provideStorage(MainModule.java:140)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.schedule.ScheduleManager.lambda$start$0(ScheduleManager.java:55)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEachOrdered(ReferencePipeline.java:772)
+	at org.traccar.schedule.ScheduleManager.start(ScheduleManager.java:54)
+	at org.traccar.Main.run(Main.java:127)
+	at org.traccar.Main.main(Main.java:111)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:142)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	... 42 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 54 more
+
+2025-09-29 06:52:06  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 06:52:06  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 06:52:06  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 06:52:06  INFO: Character encoding: windows-1252
+2025-09-29 06:52:06  INFO: Version: 6.8.1
+2025-09-29 06:52:06  INFO: Starting server...
+2025-09-29 06:52:07  INFO: HikariPool-1 - Starting...
+2025-09-29 06:52:07  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2025-09-29 06:52:07  INFO: HikariPool-1 - Start completed.
+2025-09-29 06:52:07  INFO: Set default schema name to PUBLIC
+2025-09-29 06:52:07  INFO: Clearing database change log checksums
+2025-09-29 06:52:07  INFO: Successfully acquired change log lock
+2025-09-29 06:52:08  INFO: Successfully released change log lock
+2025-09-29 06:52:09  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 06:52:10  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 06:52:10  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 06:52:10  INFO: UPDATE SUMMARY
+2025-09-29 06:52:10  INFO: Run:                          0
+2025-09-29 06:52:10  INFO: Previously run:              28
+2025-09-29 06:52:10  INFO: Filtered out:                 0
+2025-09-29 06:52:10  INFO: -------------------------------
+2025-09-29 06:52:10  INFO: Total change sets:           28
+
+2025-09-29 06:52:10  INFO: Update summary generated
+2025-09-29 06:52:10  INFO: Successfully released change log lock
+2025-09-29 06:52:10  INFO: Command execution complete
+2025-09-29 06:52:12  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 06:52:12  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 06:52:12  INFO: jetty-11.0.25; built: 2025-03-13T00:15:57.301Z; git: a2e9fae3ad8320f2a713d4fa29bba356a99d1295; jvm 17.0.16+8
+2025-09-29 06:52:12  INFO: Started o.t.w.@3d78e113{/,null,AVAILABLE}
+2025-09-29 06:52:12  INFO: Session workerName=node0
+2025-09-29 06:52:13  INFO: Started o.e.j.s.ServletContextHandler@7513ff3f{/,null,AVAILABLE}
+2025-09-29 06:52:13  INFO: Started ServerConnector@486c2cf7{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2025-09-29 06:52:13  INFO: Started Server@28051713{STARTING}[11.0.25,sto=0] @7908ms
+2025-09-29 06:52:14  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 06:52:14  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 06:52:14  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 06:52:14  INFO: Character encoding: windows-1252
+2025-09-29 06:52:14  INFO: Version: 6.8.1
+2025-09-29 06:52:14  INFO: Starting server...
+2025-09-29 06:52:14  INFO: HikariPool-1 - Starting...
+2025-09-29 06:52:15 ERROR: Main method error - 
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:605)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:592)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:101)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at org.traccar.storage.DatabaseModule.provideDataSource(DatabaseModule.java:80)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.MainModule.provideStorage(MainModule.java:140)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.schedule.ScheduleManager.lambda$start$0(ScheduleManager.java:55)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEachOrdered(ReferencePipeline.java:772)
+	at org.traccar.schedule.ScheduleManager.start(ScheduleManager.java:54)
+	at org.traccar.Main.run(Main.java:127)
+	at org.traccar.Main.main(Main.java:111)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:142)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	... 42 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 54 more
+
+2025-09-29 07:56:20  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 07:56:20  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 07:56:20  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 07:56:20  INFO: Character encoding: windows-1252
+2025-09-29 07:56:20  INFO: Version: 6.8.1
+2025-09-29 07:56:20  INFO: Starting server...
+2025-09-29 07:56:20  INFO: HikariPool-1 - Starting...
+2025-09-29 07:56:21  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2025-09-29 07:56:21  INFO: HikariPool-1 - Start completed.
+2025-09-29 07:56:21  INFO: Set default schema name to PUBLIC
+2025-09-29 07:56:21  INFO: Clearing database change log checksums
+2025-09-29 07:56:21  INFO: Successfully acquired change log lock
+2025-09-29 07:56:21  INFO: Successfully released change log lock
+2025-09-29 07:56:22  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 07:56:22  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 07:56:22  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 07:56:22  INFO: UPDATE SUMMARY
+2025-09-29 07:56:22  INFO: Run:                          0
+2025-09-29 07:56:22  INFO: Previously run:              28
+2025-09-29 07:56:22  INFO: Filtered out:                 0
+2025-09-29 07:56:22  INFO: -------------------------------
+2025-09-29 07:56:22  INFO: Total change sets:           28
+
+2025-09-29 07:56:22  INFO: Update summary generated
+2025-09-29 07:56:22  INFO: Successfully released change log lock
+2025-09-29 07:56:22  INFO: Command execution complete
+2025-09-29 07:56:24  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 07:56:24  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 07:56:24  INFO: jetty-11.0.25; built: 2025-03-13T00:15:57.301Z; git: a2e9fae3ad8320f2a713d4fa29bba356a99d1295; jvm 17.0.16+8
+2025-09-29 07:56:25  INFO: Started o.t.w.@3d78e113{/,null,AVAILABLE}
+2025-09-29 07:56:25  INFO: Session workerName=node0
+2025-09-29 07:56:26  INFO: Started o.e.j.s.ServletContextHandler@7513ff3f{/,null,AVAILABLE}
+2025-09-29 07:56:26  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 07:56:26  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 07:56:26  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 07:56:26  INFO: Character encoding: windows-1252
+2025-09-29 07:56:26  INFO: Version: 6.8.1
+2025-09-29 07:56:26  INFO: Starting server...
+2025-09-29 07:56:26  INFO: Started ServerConnector@486c2cf7{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2025-09-29 07:56:26  INFO: Started Server@28051713{STARTING}[11.0.25,sto=0] @6384ms
+2025-09-29 07:56:26  INFO: HikariPool-1 - Starting...
+2025-09-29 07:56:27 ERROR: Main method error - 
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:605)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:592)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:101)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at org.traccar.storage.DatabaseModule.provideDataSource(DatabaseModule.java:80)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.MainModule.provideStorage(MainModule.java:140)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.schedule.ScheduleManager.lambda$start$0(ScheduleManager.java:55)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEachOrdered(ReferencePipeline.java:772)
+	at org.traccar.schedule.ScheduleManager.start(ScheduleManager.java:54)
+	at org.traccar.Main.run(Main.java:127)
+	at org.traccar.Main.main(Main.java:111)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:142)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	... 42 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 54 more
+
+2025-09-29 08:16:20  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 08:16:20  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 08:16:20  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 08:16:20  INFO: Character encoding: windows-1252
+2025-09-29 08:16:20  INFO: Version: 6.8.1
+2025-09-29 08:16:20  INFO: Starting server...
+2025-09-29 08:16:20  INFO: HikariPool-1 - Starting...
+2025-09-29 08:16:20  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2025-09-29 08:16:20  INFO: HikariPool-1 - Start completed.
+2025-09-29 08:16:20  INFO: Set default schema name to PUBLIC
+2025-09-29 08:16:20  INFO: Clearing database change log checksums
+2025-09-29 08:16:21  INFO: Successfully acquired change log lock
+2025-09-29 08:16:21  INFO: Successfully released change log lock
+2025-09-29 08:16:22  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 08:16:23  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 08:16:23  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 08:16:23  INFO: UPDATE SUMMARY
+2025-09-29 08:16:23  INFO: Run:                          0
+2025-09-29 08:16:23  INFO: Previously run:              28
+2025-09-29 08:16:23  INFO: Filtered out:                 0
+2025-09-29 08:16:23  INFO: -------------------------------
+2025-09-29 08:16:23  INFO: Total change sets:           28
+
+2025-09-29 08:16:23  INFO: Update summary generated
+2025-09-29 08:16:23  INFO: Successfully released change log lock
+2025-09-29 08:16:23  INFO: Command execution complete
+2025-09-29 08:16:24  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 08:16:24  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 08:16:25  INFO: jetty-11.0.25; built: 2025-03-13T00:15:57.301Z; git: a2e9fae3ad8320f2a713d4fa29bba356a99d1295; jvm 17.0.16+8
+2025-09-29 08:16:25  INFO: Started o.t.w.@5a75de38{/,null,AVAILABLE}
+2025-09-29 08:16:25  INFO: Session workerName=node0
+2025-09-29 08:16:26  INFO: Started o.e.j.s.ServletContextHandler@396809db{/,null,AVAILABLE}
+2025-09-29 08:16:26  INFO: Started ServerConnector@714e04a2{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2025-09-29 08:16:26  INFO: Started Server@5a9ec27b{STARTING}[11.0.25,sto=0] @6664ms
+2025-09-29 08:16:26  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 08:16:26  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 08:16:26  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 08:16:26  INFO: Character encoding: windows-1252
+2025-09-29 08:16:26  INFO: Version: 6.8.1
+2025-09-29 08:16:26  INFO: Starting server...
+2025-09-29 08:16:27  INFO: HikariPool-1 - Starting...
+2025-09-29 08:16:28 ERROR: Main method error - 
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:605)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:592)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:101)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at org.traccar.storage.DatabaseModule.provideDataSource(DatabaseModule.java:80)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.MainModule.provideStorage(MainModule.java:140)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.schedule.ScheduleManager.lambda$start$0(ScheduleManager.java:55)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEachOrdered(ReferencePipeline.java:772)
+	at org.traccar.schedule.ScheduleManager.start(ScheduleManager.java:54)
+	at org.traccar.Main.run(Main.java:127)
+	at org.traccar.Main.main(Main.java:111)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:142)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	... 42 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 54 more
+
+2025-09-29 08:30:09  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 08:30:09  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 08:30:09  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 08:30:09  INFO: Character encoding: windows-1252
+2025-09-29 08:30:09  INFO: Version: 6.8.1
+2025-09-29 08:30:09  INFO: Starting server...
+2025-09-29 08:30:10  INFO: HikariPool-1 - Starting...
+2025-09-29 08:30:10  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2025-09-29 08:30:10  INFO: HikariPool-1 - Start completed.
+2025-09-29 08:30:10  INFO: Set default schema name to PUBLIC
+2025-09-29 08:30:10  INFO: Clearing database change log checksums
+2025-09-29 08:30:10  INFO: Successfully acquired change log lock
+2025-09-29 08:30:10  INFO: Successfully released change log lock
+2025-09-29 08:30:11  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 08:30:12  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 08:30:12  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 08:30:12  INFO: UPDATE SUMMARY
+2025-09-29 08:30:12  INFO: Run:                          0
+2025-09-29 08:30:12  INFO: Previously run:              28
+2025-09-29 08:30:12  INFO: Filtered out:                 0
+2025-09-29 08:30:12  INFO: -------------------------------
+2025-09-29 08:30:12  INFO: Total change sets:           28
+
+2025-09-29 08:30:12  INFO: Update summary generated
+2025-09-29 08:30:12  INFO: Successfully released change log lock
+2025-09-29 08:30:12  INFO: Command execution complete
+2025-09-29 08:30:13  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 08:30:13  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 08:30:13  INFO: jetty-11.0.25; built: 2025-03-13T00:15:57.301Z; git: a2e9fae3ad8320f2a713d4fa29bba356a99d1295; jvm 17.0.16+8
+2025-09-29 08:30:13  INFO: Started o.t.w.@3d78e113{/,null,AVAILABLE}
+2025-09-29 08:30:13  INFO: Session workerName=node0
+2025-09-29 08:30:14  INFO: Started o.e.j.s.ServletContextHandler@7513ff3f{/,null,AVAILABLE}
+2025-09-29 08:30:14  INFO: Started ServerConnector@486c2cf7{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2025-09-29 08:30:14  INFO: Started Server@28051713{STARTING}[11.0.25,sto=0] @5079ms
+2025-09-29 08:30:14  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 08:30:14  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 08:30:14  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 08:30:14  INFO: Character encoding: windows-1252
+2025-09-29 08:30:14  INFO: Version: 6.8.1
+2025-09-29 08:30:14  INFO: Starting server...
+2025-09-29 08:30:14  INFO: HikariPool-1 - Starting...
+2025-09-29 08:30:16 ERROR: Main method error - 
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:605)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:592)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:101)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at org.traccar.storage.DatabaseModule.provideDataSource(DatabaseModule.java:80)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.MainModule.provideStorage(MainModule.java:140)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.schedule.ScheduleManager.lambda$start$0(ScheduleManager.java:55)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEachOrdered(ReferencePipeline.java:772)
+	at org.traccar.schedule.ScheduleManager.start(ScheduleManager.java:54)
+	at org.traccar.Main.run(Main.java:127)
+	at org.traccar.Main.main(Main.java:111)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:142)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	... 42 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 54 more
+
+2025-09-29 09:28:12  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 09:28:12  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 09:28:12  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 09:28:12  INFO: Character encoding: windows-1252
+2025-09-29 09:28:12  INFO: Version: 6.8.1
+2025-09-29 09:28:12  INFO: Starting server...
+2025-09-29 09:28:12  INFO: HikariPool-1 - Starting...
+2025-09-29 09:28:13  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2025-09-29 09:28:13  INFO: HikariPool-1 - Start completed.
+2025-09-29 09:28:13  INFO: Set default schema name to PUBLIC
+2025-09-29 09:28:13  INFO: Clearing database change log checksums
+2025-09-29 09:28:13  INFO: Successfully acquired change log lock
+2025-09-29 09:28:13  INFO: Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2025-09-29 09:28:13  INFO: Successfully released change log lock
+2025-09-29 09:28:15  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 09:28:15  INFO: Successfully acquired change log lock
+2025-09-29 09:28:15  INFO: Using deploymentId: 9163295981
+2025-09-29 09:28:15  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 09:28:16  INFO: Table tc_attributes created
+2025-09-29 09:28:16  INFO: Table tc_calendars created
+2025-09-29 09:28:16  INFO: Table tc_commands created
+2025-09-29 09:28:16  INFO: Table tc_device_attribute created
+2025-09-29 09:28:16  INFO: Table tc_device_command created
+2025-09-29 09:28:16  INFO: Table tc_device_driver created
+2025-09-29 09:28:16  INFO: Table tc_device_geofence created
+2025-09-29 09:28:16  INFO: Table tc_device_maintenance created
+2025-09-29 09:28:16  INFO: Table tc_device_notification created
+2025-09-29 09:28:16  INFO: Table tc_devices created
+2025-09-29 09:28:16  INFO: Table tc_drivers created
+2025-09-29 09:28:16  INFO: Table tc_events created
+2025-09-29 09:28:16  INFO: Table tc_geofences created
+2025-09-29 09:28:16  INFO: Table tc_group_attribute created
+2025-09-29 09:28:16  INFO: Table tc_group_command created
+2025-09-29 09:28:16  INFO: Table tc_group_driver created
+2025-09-29 09:28:16  INFO: Table tc_group_geofence created
+2025-09-29 09:28:16  INFO: Table tc_group_maintenance created
+2025-09-29 09:28:16  INFO: Table tc_group_notification created
+2025-09-29 09:28:16  INFO: Table tc_groups created
+2025-09-29 09:28:16  INFO: Table tc_maintenances created
+2025-09-29 09:28:16  INFO: Table tc_notifications created
+2025-09-29 09:28:16  INFO: Table tc_positions created
+2025-09-29 09:28:16  INFO: Table tc_servers created
+2025-09-29 09:28:16  INFO: Table tc_statistics created
+2025-09-29 09:28:16  INFO: Table tc_user_attribute created
+2025-09-29 09:28:16  INFO: Table tc_user_calendar created
+2025-09-29 09:28:16  INFO: Table tc_user_command created
+2025-09-29 09:28:16  INFO: Table tc_user_device created
+2025-09-29 09:28:16  INFO: Table tc_user_driver created
+2025-09-29 09:28:16  INFO: Table tc_user_geofence created
+2025-09-29 09:28:16  INFO: Table tc_user_group created
+2025-09-29 09:28:16  INFO: Table tc_user_maintenance created
+2025-09-29 09:28:16  INFO: Table tc_user_notification created
+2025-09-29 09:28:16  INFO: Table tc_user_user created
+2025-09-29 09:28:16  INFO: Table tc_users created
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_device_command (commandid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_device_command (deviceid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_device_driver (deviceid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_device_driver (driverid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_device_geofence (deviceid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_device_geofence (geofenceid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_device_maintenance (deviceid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_device_maintenance (maintenanceid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_device_notification (deviceid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_device_notification (notificationid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_devices (groupid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_events (deviceid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_geofences (calendarid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_group_attribute (attributeid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_group_attribute (groupid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_group_command (commandid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_group_command (groupid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_group_driver (driverid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_group_driver (groupid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_group_geofence (geofenceid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_group_geofence (groupid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_group_maintenance (groupid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_group_maintenance (maintenanceid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_group_notification (groupid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_group_notification (notificationid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_notifications (calendarid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_positions (deviceid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_attribute (attributeid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_attribute (userid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_calendar (calendarid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_calendar (userid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_command (commandid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_command (userid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_device_attribute (attributeid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_device_attribute (deviceid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_device (deviceid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_device (userid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_driver (driverid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_driver (userid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_geofence (geofenceid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_geofence (userid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_group (groupid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_group (userid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_maintenance (maintenanceid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_maintenance (userid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_notification (notificationid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_notification (userid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_user (userid)
+2025-09-29 09:28:16  INFO: New row inserted into tc_servers
+2025-09-29 09:28:16  INFO: ChangeSet changelog-4.0-clean::changelog-4.0-clean::author ran successfully in 379ms
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_groups (groupid)
+2025-09-29 09:28:16  INFO: Foreign key constraint added to tc_user_user (manageduserid)
+2025-09-29 09:28:16  INFO: ChangeSet changelog-4.0-clean::changelog-4.0-clean-common::author ran successfully in 7ms
+2025-09-29 09:28:16  INFO: Marking ChangeSet: "changelog-4.1::changelog-4.1-mssql::author" as ran despite precondition failure due to onFail='MARK_RAN': 
+          schema/changelog-master.xml : DBMS Precondition failed: expected mssql, got h2
+
+2025-09-29 09:28:16  INFO: Index user_device_user_id created
+2025-09-29 09:28:16  INFO: Index position_deviceid_fixtime created
+2025-09-29 09:28:16  INFO: ChangeSet changelog-4.7::changelog-4.7::author ran successfully in 82ms
+2025-09-29 09:28:16  INFO: Index event_deviceid_servertime created
+2025-09-29 09:28:16  INFO: ChangeSet changelog-4.9::changelog-4.9::author ran successfully in 1ms
+2025-09-29 09:28:16  INFO: Columns protocols(VARCHAR(4096)) added to tc_statistics
+2025-09-29 09:28:16  INFO: ChangeSet changelog-4.10::changelog-4.10::author ran successfully in 33ms
+2025-09-29 09:28:16  INFO: Columns announcement(VARCHAR(4000)) added to tc_servers
+2025-09-29 09:28:16  INFO: ChangeSet changelog-4.11::changelog-4.11::author ran successfully in 10ms
+2025-09-29 09:28:16  INFO: Column tc_events.servertime renamed to eventtime
+2025-09-29 09:28:16  INFO: ChangeSet changelog-4.13::changelog-4.13::author ran successfully in 5ms
+2025-09-29 09:28:17  INFO: Table tc_orders created
+2025-09-29 09:28:17  INFO: Table tc_user_order created
+2025-09-29 09:28:17  INFO: Foreign key constraint added to tc_user_order (userid)
+2025-09-29 09:28:17  INFO: Foreign key constraint added to tc_user_order (orderid)
+2025-09-29 09:28:17  INFO: Table tc_group_order created
+2025-09-29 09:28:17  INFO: Foreign key constraint added to tc_group_order (groupid)
+2025-09-29 09:28:17  INFO: Foreign key constraint added to tc_group_order (orderid)
+2025-09-29 09:28:17  INFO: Table tc_device_order created
+2025-09-29 09:28:17  INFO: Foreign key constraint added to tc_device_order (deviceid)
+2025-09-29 09:28:17  INFO: Foreign key constraint added to tc_device_order (orderid)
+2025-09-29 09:28:17  INFO: ChangeSet changelog-4.15::changelog-4.15::author ran successfully in 42ms
+2025-09-29 09:28:17  INFO: Columns disablereports(BOOLEAN) added to tc_servers
+2025-09-29 09:28:17  INFO: Columns disablereports(BOOLEAN) added to tc_users
+2025-09-29 09:28:17  INFO: Column tc_orders.toAddress renamed to toaddresstmp
+2025-09-29 09:28:17  INFO: Column tc_orders.fromAddress renamed to fromaddresstmp
+2025-09-29 09:28:17  INFO: Column tc_orders.toaddresstmp renamed to toaddress
+2025-09-29 09:28:17  INFO: Column tc_orders.fromaddresstmp renamed to fromaddress
+2025-09-29 09:28:17  INFO: ChangeSet changelog-5.0::changelog-5.0::author ran successfully in 56ms
+2025-09-29 09:28:17  INFO: Index idx_drivers_uniqueid created
+2025-09-29 09:28:17  INFO: Index idx_devices_uniqueid created
+2025-09-29 09:28:17  INFO: Index idx_users_email created
+2025-09-29 09:28:17  INFO: Index idx_users_login created
+2025-09-29 09:28:17  INFO: Index idx_users_token created
+2025-09-29 09:28:17  INFO: Columns overlayurl(VARCHAR(512)) added to tc_servers
+2025-09-29 09:28:17  INFO: ChangeSet changelog-5.1::changelog-5.1::author ran successfully in 24ms
+2025-09-29 09:28:17  INFO: Columns status(CHAR(8)) added to tc_devices
+2025-09-29 09:28:17  INFO: Columns geofenceids(VARCHAR(128)) added to tc_devices
+2025-09-29 09:28:17  INFO: ChangeSet changelog-5.2::changelog-5.2::author ran successfully in 44ms
+2025-09-29 09:28:17  INFO: Columns fixedemail(BOOLEAN) added to tc_servers
+2025-09-29 09:28:17  INFO: Columns fixedemail(BOOLEAN) added to tc_users
+2025-09-29 09:28:17  INFO: Columns expirationtime(TIMESTAMP) added to tc_devices
+2025-09-29 09:28:17  INFO: Table tc_keystore created
+2025-09-29 09:28:17  INFO: Index idx_users_token dropped from table tc_users
+2025-09-29 09:28:17  INFO: Column tc_users.token dropped
+2025-09-29 09:28:17  INFO: ChangeSet changelog-5.3::changelog-5.3::author ran successfully in 66ms
+2025-09-29 09:28:17  INFO: Columns motionstate(BOOLEAN),motiontime(TIMESTAMP),motiondistance(DOUBLE),overspeedstate(BOOLEAN),overspeedtime(TIMESTAMP),overspeedgeofenceid(INT) added to tc_devices
+2025-09-29 09:28:17  INFO: Table tc_commands_queue created
+2025-09-29 09:28:17  INFO: Foreign key constraint added to tc_commands_queue (deviceid)
+2025-09-29 09:28:17  INFO: Index idx_commands_queue_deviceid created
+2025-09-29 09:28:17  INFO: ChangeSet changelog-5.4::changelog-5.4::author ran successfully in 59ms
+2025-09-29 09:28:17  INFO: Column tc_commands_queue.description dropped
+2025-09-29 09:28:17  INFO: ChangeSet changelog-5.5::changelog-5.5::author ran successfully in 5ms
+2025-09-29 09:28:17  INFO: Columns motionstreak(BOOLEAN) added to tc_devices
+2025-09-29 09:28:17  INFO: Table tc_reports created
+2025-09-29 09:28:17  INFO: Foreign key constraint added to tc_reports (calendarid)
+2025-09-29 09:28:17  INFO: Table tc_user_report created
+2025-09-29 09:28:17  INFO: Foreign key constraint added to tc_user_report (userid)
+2025-09-29 09:28:17  INFO: Foreign key constraint added to tc_user_report (reportid)
+2025-09-29 09:28:17  INFO: Table tc_group_report created
+2025-09-29 09:28:17  INFO: Foreign key constraint added to tc_group_report (groupid)
+2025-09-29 09:28:17  INFO: Foreign key constraint added to tc_group_report (reportid)
+2025-09-29 09:28:17  INFO: Table tc_device_report created
+2025-09-29 09:28:17  INFO: Foreign key constraint added to tc_device_report (deviceid)
+2025-09-29 09:28:17  INFO: Foreign key constraint added to tc_device_report (reportid)
+2025-09-29 09:28:17  INFO: ChangeSet changelog-5.6::changelog-5.6::author ran successfully in 38ms
+2025-09-29 09:28:17  INFO: Columns commandid(INT) added to tc_notifications
+2025-09-29 09:28:17  INFO: Foreign key constraint added to tc_notifications (commandid)
+2025-09-29 09:28:17  INFO: ChangeSet changelog-5.7::changelog-5.7::author ran successfully in 8ms
+2025-09-29 09:28:17  INFO: Column tc_devices.geofenceids dropped
+2025-09-29 09:28:17  INFO: Columns geofenceids(VARCHAR(128)) added to tc_positions
+2025-09-29 09:28:17  INFO: ChangeSet changelog-5.8::changelog-5.8::author ran successfully in 14ms
+2025-09-29 09:28:17  INFO: Columns calendarid(INT) added to tc_devices
+2025-09-29 09:28:17  INFO: Foreign key constraint added to tc_devices (calendarid)
+2025-09-29 09:28:17  INFO: ChangeSet changelog-5.9::changelog-5.9::author ran successfully in 12ms
+2025-09-29 09:28:17  INFO: Columns totpkey(VARCHAR(64)) added to tc_users
+2025-09-29 09:28:17  INFO: ChangeSet changelog-5.10::changelog-5.10::author ran successfully in 19ms
+2025-09-29 09:28:17  INFO: Columns temporary(BOOLEAN) added to tc_users
+2025-09-29 09:28:17  INFO: ChangeSet changelog-5.11::changelog-5.11::author ran successfully in 7ms
+2025-09-29 09:28:17  INFO: Column tc_servers.twelvehourformat dropped
+2025-09-29 09:28:17  INFO: Column tc_users.twelvehourformat dropped
+2025-09-29 09:28:17  INFO: Columns priority(INT) added to tc_attributes
+2025-09-29 09:28:17  INFO: ChangeSet changelog-6.2::changelog-6.2::author ran successfully in 27ms
+2025-09-29 09:28:17  INFO: Marking ChangeSet: "changelog-6.3::changelog-6.3-old::author" as ran despite precondition failure due to onFail='MARK_RAN': 
+          schema/changelog-master.xml : Foreign Key PUBLIC.fk_event_deviceid does not exist
+
+2025-09-29 09:28:17  INFO: Foreign key fk_events_deviceid dropped
+2025-09-29 09:28:17  INFO: Foreign key fk_positions_deviceid dropped
+2025-09-29 09:28:17  INFO: ChangeSet changelog-6.3::changelog-6.3-new::author ran successfully in 72ms
+2025-09-29 09:28:17  INFO: Columns description(VARCHAR(4000)) added to tc_notifications
+2025-09-29 09:28:17  INFO: ChangeSet changelog-6.6::changelog-6.6::author ran successfully in 7ms
+2025-09-29 09:28:17  INFO: Table tc_actions created
+2025-09-29 09:28:17  INFO: ChangeSet changelog-6.7.0::changelog-6.7.0::author ran successfully in 11ms
+2025-09-29 09:28:17  INFO: Marking ChangeSet: "changelog-6.8.0::changelog-6.8.0-timescale::author" as ran despite precondition failure due to onFail='MARK_RAN': 
+          schema/changelog-master.xml : DBMS Precondition failed: expected postgresql, got h2
+
+2025-09-29 09:28:17  INFO: Columns motionpositionid(INT) added to tc_devices
+2025-09-29 09:28:17  INFO: ChangeSet changelog-6.9.0::changelog-6.9.0::author ran successfully in 9ms
+2025-09-29 09:28:17  INFO: UPDATE SUMMARY
+2025-09-29 09:28:17  INFO: Run:                         28
+2025-09-29 09:28:17  INFO: Previously run:               0
+2025-09-29 09:28:17  INFO: Filtered out:                 0
+2025-09-29 09:28:17  INFO: -------------------------------
+2025-09-29 09:28:17  INFO: Total change sets:           28
+
+2025-09-29 09:28:17  INFO: Update summary generated
+2025-09-29 09:28:17  INFO: Update command completed successfully.
+2025-09-29 09:28:17  INFO: Successfully released change log lock
+2025-09-29 09:28:17  INFO: Command execution complete
+2025-09-29 09:28:19  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 09:28:19  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 09:28:19  INFO: jetty-11.0.25; built: 2025-03-13T00:15:57.301Z; git: a2e9fae3ad8320f2a713d4fa29bba356a99d1295; jvm 17.0.16+8
+2025-09-29 09:28:19  INFO: Started o.t.w.@1640ba33{/,null,AVAILABLE}
+2025-09-29 09:28:19  INFO: Session workerName=node0
+2025-09-29 09:28:20  INFO: Started o.e.j.s.ServletContextHandler@121dac0d{/,null,AVAILABLE}
+2025-09-29 09:28:20  INFO: Started ServerConnector@33669680{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2025-09-29 09:28:20  INFO: Started Server@1779cf4c{STARTING}[11.0.25,sto=0] @8869ms
+2025-09-29 09:28:20  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 09:28:20  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 09:28:20  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 09:28:20  INFO: Character encoding: windows-1252
+2025-09-29 09:28:20  INFO: Version: 6.8.1
+2025-09-29 09:28:20  INFO: Starting server...
+2025-09-29 09:28:21  INFO: HikariPool-1 - Starting...
+2025-09-29 09:28:22 ERROR: Main method error - 
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:605)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:592)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:101)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at org.traccar.storage.DatabaseModule.provideDataSource(DatabaseModule.java:80)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.MainModule.provideStorage(MainModule.java:140)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.schedule.ScheduleManager.lambda$start$0(ScheduleManager.java:55)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEachOrdered(ReferencePipeline.java:772)
+	at org.traccar.schedule.ScheduleManager.start(ScheduleManager.java:54)
+	at org.traccar.Main.run(Main.java:127)
+	at org.traccar.Main.main(Main.java:111)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:142)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	... 42 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 54 more
+
+2025-09-29 09:35:19  INFO: login failed from: [0:0:0:0:0:0:0:1]
+2025-09-29 09:35:20  INFO: login failed from: [0:0:0:0:0:0:0:1]
+2025-09-29 09:38:40  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 09:38:40  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 09:38:40  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 09:38:40  INFO: Character encoding: windows-1252
+2025-09-29 09:38:40  INFO: Version: 6.8.1
+2025-09-29 09:38:40  INFO: Starting server...
+2025-09-29 09:38:40  INFO: HikariPool-1 - Starting...
+2025-09-29 09:38:40  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 09:38:40  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 09:38:40  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 09:38:40  INFO: Character encoding: windows-1252
+2025-09-29 09:38:40  INFO: Version: 6.8.1
+2025-09-29 09:38:40  INFO: Starting server...
+2025-09-29 09:38:41  INFO: HikariPool-1 - Starting...
+2025-09-29 09:38:41  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2025-09-29 09:38:41  INFO: HikariPool-1 - Start completed.
+2025-09-29 09:38:41  INFO: Set default schema name to PUBLIC
+2025-09-29 09:38:41  INFO: Clearing database change log checksums
+2025-09-29 09:38:41  INFO: Successfully acquired change log lock
+2025-09-29 09:38:41  INFO: Successfully released change log lock
+2025-09-29 09:38:42 ERROR: Main method error - 
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:605)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:592)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:101)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at org.traccar.storage.DatabaseModule.provideDataSource(DatabaseModule.java:80)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.MainModule.provideStorage(MainModule.java:140)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.schedule.ScheduleManager.lambda$start$0(ScheduleManager.java:55)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEachOrdered(ReferencePipeline.java:772)
+	at org.traccar.schedule.ScheduleManager.start(ScheduleManager.java:54)
+	at org.traccar.Main.run(Main.java:127)
+	at org.traccar.Main.main(Main.java:111)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:142)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	... 42 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 54 more
+
+2025-09-29 09:38:42  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 09:38:43  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 09:38:43  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 09:38:43  INFO: UPDATE SUMMARY
+2025-09-29 09:38:43  INFO: Run:                          0
+2025-09-29 09:38:43  INFO: Previously run:              28
+2025-09-29 09:38:43  INFO: Filtered out:                 0
+2025-09-29 09:38:43  INFO: -------------------------------
+2025-09-29 09:38:43  INFO: Total change sets:           28
+
+2025-09-29 09:38:43  INFO: Update summary generated
+2025-09-29 09:38:43  INFO: Successfully released change log lock
+2025-09-29 09:38:43  INFO: Command execution complete
+2025-09-29 09:38:44  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 09:38:44  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 09:38:44  INFO: jetty-11.0.25; built: 2025-03-13T00:15:57.301Z; git: a2e9fae3ad8320f2a713d4fa29bba356a99d1295; jvm 17.0.16+8
+2025-09-29 09:38:44  INFO: Started o.t.w.@5d831c80{/,null,AVAILABLE}
+2025-09-29 09:38:44  INFO: Session workerName=node0
+2025-09-29 09:38:45  INFO: Started o.e.j.s.ServletContextHandler@12b7731c{/,null,AVAILABLE}
+2025-09-29 09:38:45  INFO: Started ServerConnector@191d579d{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2025-09-29 09:38:45  INFO: Started Server@7bee972a{STARTING}[11.0.25,sto=0] @5728ms
+2025-09-29 10:00:08  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 10:00:08  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 10:00:08  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 10:00:08  INFO: Character encoding: windows-1252
+2025-09-29 10:00:08  INFO: Version: 6.8.1
+2025-09-29 10:00:08  INFO: Starting server...
+2025-09-29 10:00:08  INFO: HikariPool-1 - Starting...
+2025-09-29 10:00:09  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2025-09-29 10:00:09  INFO: HikariPool-1 - Start completed.
+2025-09-29 10:00:09  INFO: Set default schema name to PUBLIC
+2025-09-29 10:00:09  INFO: Clearing database change log checksums
+2025-09-29 10:00:09  INFO: Successfully acquired change log lock
+2025-09-29 10:00:09  INFO: Successfully released change log lock
+2025-09-29 10:00:10  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 10:00:10  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 10:00:11  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 10:00:11  INFO: UPDATE SUMMARY
+2025-09-29 10:00:11  INFO: Run:                          0
+2025-09-29 10:00:11  INFO: Previously run:              28
+2025-09-29 10:00:11  INFO: Filtered out:                 0
+2025-09-29 10:00:11  INFO: -------------------------------
+2025-09-29 10:00:11  INFO: Total change sets:           28
+
+2025-09-29 10:00:11  INFO: Update summary generated
+2025-09-29 10:00:11  INFO: Successfully released change log lock
+2025-09-29 10:00:11  INFO: Command execution complete
+2025-09-29 10:00:12  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 10:00:12  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 10:00:12  INFO: jetty-11.0.25; built: 2025-03-13T00:15:57.301Z; git: a2e9fae3ad8320f2a713d4fa29bba356a99d1295; jvm 17.0.16+8
+2025-09-29 10:00:12  INFO: Started o.t.w.@3d78e113{/,null,AVAILABLE}
+2025-09-29 10:00:12  INFO: Session workerName=node0
+2025-09-29 10:00:13  INFO: Started o.e.j.s.ServletContextHandler@7513ff3f{/,null,AVAILABLE}
+2025-09-29 10:00:13  INFO: Started ServerConnector@486c2cf7{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2025-09-29 10:00:13  INFO: Started Server@28051713{STARTING}[11.0.25,sto=0] @6277ms
+2025-09-29 10:04:53  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 10:04:53  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 10:04:53  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 10:04:53  INFO: Character encoding: windows-1252
+2025-09-29 10:04:53  INFO: Version: 6.8.1
+2025-09-29 10:04:53  INFO: Starting server...
+2025-09-29 10:04:53  INFO: HikariPool-1 - Starting...
+2025-09-29 10:04:53  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 10:04:53  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 10:04:53  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 10:04:53  INFO: Character encoding: windows-1252
+2025-09-29 10:04:53  INFO: Version: 6.8.1
+2025-09-29 10:04:53  INFO: Starting server...
+2025-09-29 10:04:54  INFO: HikariPool-1 - Starting...
+2025-09-29 10:04:54  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2025-09-29 10:04:54  INFO: HikariPool-1 - Start completed.
+2025-09-29 10:04:54  INFO: Set default schema name to PUBLIC
+2025-09-29 10:04:54  INFO: Clearing database change log checksums
+2025-09-29 10:04:54  INFO: Successfully acquired change log lock
+2025-09-29 10:04:54  INFO: Successfully released change log lock
+2025-09-29 10:04:55 ERROR: Main method error - 
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:605)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:592)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:101)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at org.traccar.storage.DatabaseModule.provideDataSource(DatabaseModule.java:80)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.MainModule.provideStorage(MainModule.java:140)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.schedule.ScheduleManager.lambda$start$0(ScheduleManager.java:55)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEachOrdered(ReferencePipeline.java:772)
+	at org.traccar.schedule.ScheduleManager.start(ScheduleManager.java:54)
+	at org.traccar.Main.run(Main.java:127)
+	at org.traccar.Main.main(Main.java:111)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:142)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	... 42 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 54 more
+
+2025-09-29 10:04:56  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 10:04:56  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 10:04:56  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 10:04:56  INFO: UPDATE SUMMARY
+2025-09-29 10:04:56  INFO: Run:                          0
+2025-09-29 10:04:56  INFO: Previously run:              28
+2025-09-29 10:04:56  INFO: Filtered out:                 0
+2025-09-29 10:04:56  INFO: -------------------------------
+2025-09-29 10:04:56  INFO: Total change sets:           28
+
+2025-09-29 10:04:56  INFO: Update summary generated
+2025-09-29 10:04:56  INFO: Successfully released change log lock
+2025-09-29 10:04:56  INFO: Command execution complete
+2025-09-29 10:04:57  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 10:04:57  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 10:04:58  INFO: jetty-11.0.25; built: 2025-03-13T00:15:57.301Z; git: a2e9fae3ad8320f2a713d4fa29bba356a99d1295; jvm 17.0.16+8
+2025-09-29 10:04:58  INFO: Started o.t.w.@3d78e113{/,null,AVAILABLE}
+2025-09-29 10:04:58  INFO: Session workerName=node0
+2025-09-29 10:04:58  INFO: Started o.e.j.s.ServletContextHandler@7513ff3f{/,null,AVAILABLE}
+2025-09-29 10:04:58  INFO: Started ServerConnector@486c2cf7{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2025-09-29 10:04:58  INFO: Started Server@28051713{STARTING}[11.0.25,sto=0] @6137ms
+2025-09-29 10:27:59  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 10:27:59  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 10:27:59  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 10:27:59  INFO: Character encoding: windows-1252
+2025-09-29 10:27:59  INFO: Version: 6.8.1
+2025-09-29 10:27:59  INFO: Starting server...
+2025-09-29 10:28:00  INFO: HikariPool-1 - Starting...
+2025-09-29 10:28:00  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2025-09-29 10:28:00  INFO: HikariPool-1 - Start completed.
+2025-09-29 10:28:01  INFO: Set default schema name to PUBLIC
+2025-09-29 10:28:01  INFO: Clearing database change log checksums
+2025-09-29 10:28:01  INFO: Successfully acquired change log lock
+2025-09-29 10:28:01  INFO: Successfully released change log lock
+2025-09-29 10:28:04  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 10:28:04  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 10:28:04  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 10:28:04  INFO: UPDATE SUMMARY
+2025-09-29 10:28:04  INFO: Run:                          0
+2025-09-29 10:28:04  INFO: Previously run:              28
+2025-09-29 10:28:04  INFO: Filtered out:                 0
+2025-09-29 10:28:04  INFO: -------------------------------
+2025-09-29 10:28:04  INFO: Total change sets:           28
+
+2025-09-29 10:28:04  INFO: Update summary generated
+2025-09-29 10:28:04  INFO: Successfully released change log lock
+2025-09-29 10:28:04  INFO: Command execution complete
+2025-09-29 10:28:06  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 10:28:06  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 10:28:06  INFO: jetty-11.0.25; built: 2025-03-13T00:15:57.301Z; git: a2e9fae3ad8320f2a713d4fa29bba356a99d1295; jvm 17.0.16+8
+2025-09-29 10:28:06  INFO: Started o.t.w.@3d78e113{/,null,AVAILABLE}
+2025-09-29 10:28:07  INFO: Session workerName=node0
+2025-09-29 10:28:08  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 10:28:08  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 10:28:08  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 10:28:08  INFO: Character encoding: windows-1252
+2025-09-29 10:28:08  INFO: Version: 6.8.1
+2025-09-29 10:28:08  INFO: Starting server...
+2025-09-29 10:28:08  INFO: Started o.e.j.s.ServletContextHandler@7513ff3f{/,null,AVAILABLE}
+2025-09-29 10:28:08  INFO: Started ServerConnector@486c2cf7{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2025-09-29 10:28:08  INFO: Started Server@28051713{STARTING}[11.0.25,sto=0] @9795ms
+2025-09-29 10:28:08  INFO: HikariPool-1 - Starting...
+2025-09-29 10:28:09 ERROR: Main method error - 
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:605)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:592)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:101)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at org.traccar.storage.DatabaseModule.provideDataSource(DatabaseModule.java:80)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.MainModule.provideStorage(MainModule.java:140)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.schedule.ScheduleManager.lambda$start$0(ScheduleManager.java:55)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEachOrdered(ReferencePipeline.java:772)
+	at org.traccar.schedule.ScheduleManager.start(ScheduleManager.java:54)
+	at org.traccar.Main.run(Main.java:127)
+	at org.traccar.Main.main(Main.java:111)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:142)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	... 42 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 54 more
+
+2025-09-29 10:41:41  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 10:41:41  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 10:41:41  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 10:41:41  INFO: Character encoding: windows-1252
+2025-09-29 10:41:41  INFO: Version: 6.8.1
+2025-09-29 10:41:41  INFO: Starting server...
+2025-09-29 10:41:41  INFO: HikariPool-1 - Starting...
+2025-09-29 10:41:42  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2025-09-29 10:41:42  INFO: HikariPool-1 - Start completed.
+2025-09-29 10:41:42  INFO: Set default schema name to PUBLIC
+2025-09-29 10:41:42  INFO: Clearing database change log checksums
+2025-09-29 10:41:42  INFO: Successfully acquired change log lock
+2025-09-29 10:41:43  INFO: Successfully released change log lock
+2025-09-29 10:41:45  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 10:41:46  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 10:41:46  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2025-09-29 10:41:46  INFO: UPDATE SUMMARY
+2025-09-29 10:41:46  INFO: Run:                          0
+2025-09-29 10:41:46  INFO: Previously run:              28
+2025-09-29 10:41:46  INFO: Filtered out:                 0
+2025-09-29 10:41:46  INFO: -------------------------------
+2025-09-29 10:41:46  INFO: Total change sets:           28
+
+2025-09-29 10:41:46  INFO: Update summary generated
+2025-09-29 10:41:46  INFO: Successfully released change log lock
+2025-09-29 10:41:46  INFO: Command execution complete
+2025-09-29 10:41:48  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 10:41:48  WARN: Port disabled due to conflict - 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:148)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:434)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1353)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:493)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:472)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:994)
+	at io.netty.channel.Channel.bind(Channel.java:302)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:380)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:507)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:182)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1073)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.util.concurrent.CompletionException: Rethrowing promise failure cause
+		at io.netty.util.concurrent.DefaultPromise.rethrowIfFailed(DefaultPromise.java:685)
+		at io.netty.util.concurrent.DefaultPromise.syncUninterruptibly(DefaultPromise.java:426)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:125)
+		at io.netty.channel.DefaultChannelPromise.syncUninterruptibly(DefaultChannelPromise.java:30)
+		at org.traccar.TrackerServer.start(TrackerServer.java:121)
+		at org.traccar.ServerManager.start(ServerManager.java:74)
+		at org.traccar.Main.run(Main.java:127)
+		at org.traccar.Main.main(Main.java:111)
+
+2025-09-29 10:41:48  INFO: jetty-11.0.25; built: 2025-03-13T00:15:57.301Z; git: a2e9fae3ad8320f2a713d4fa29bba356a99d1295; jvm 17.0.16+8
+2025-09-29 10:41:49  INFO: Started o.t.w.@3d78e113{/,null,AVAILABLE}
+2025-09-29 10:41:49  INFO: Session workerName=node0
+2025-09-29 10:41:50  INFO: Started o.e.j.s.ServletContextHandler@7513ff3f{/,null,AVAILABLE}
+2025-09-29 10:41:50  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2025-09-29 10:41:50  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Eclipse Adoptium version: 17.0.16+8
+2025-09-29 10:41:50  INFO: Memory limit heap: 3936mb non-heap: 0mb
+2025-09-29 10:41:50  INFO: Character encoding: windows-1252
+2025-09-29 10:41:50  INFO: Version: 6.8.1
+2025-09-29 10:41:50  INFO: Starting server...
+2025-09-29 10:41:50  INFO: Started ServerConnector@486c2cf7{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2025-09-29 10:41:50  INFO: Started Server@28051713{STARTING}[11.0.25,sto=0] @9982ms
+2025-09-29 10:41:51  INFO: HikariPool-1 - Starting...
+2025-09-29 10:41:52 ERROR: Main method error - 
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:605)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:592)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:101)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:80)
+	at org.traccar.storage.DatabaseModule.provideDataSource(DatabaseModule.java:80)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.storage.DatabaseModule$$FastClassByGuice$$123d65.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.MainModule.provideStorage(MainModule.java:140)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.GUICE$TRAMPOLINE(<generated>)
+	at org.traccar.MainModule$$FastClassByGuice$$92cfe.apply(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:40)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:60)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1186)
+	at org.traccar.schedule.ScheduleManager.lambda$start$0(ScheduleManager.java:55)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEachOrdered(ReferencePipeline.java:772)
+	at org.traccar.schedule.ScheduleManager.start(ScheduleManager.java:54)
+	at org.traccar.Main.run(Main.java:127)
+	at org.traccar.Main.main(Main.java:111)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:142)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:139)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:368)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:205)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:483)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:571)
+	... 42 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/cedri/OneDrive/Documents/GitHub/tracksweeper/target/database.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 54 more
+

@@ -32,24 +32,41 @@ public class GenerateTripData {
             Connection conn = DriverManager.getConnection(dbUrl, dbUser, dbPassword);
             System.out.println("Connected to database successfully");
             
-            // Create a test device first
-            long deviceId = createTestDevice(conn);
-            System.out.println("Created test device with ID: " + deviceId);
+            // Create first test device
+            long deviceId1 = createTestDevice(conn, "Demo Vehicle", "demo123");
+            System.out.println("Created test device 1 with ID: " + deviceId1);
+            
+            // Create second test device
+            long deviceId2 = createTestDevice(conn, "Demo Vehicle 2", "demo456");
+            System.out.println("Created test device 2 with ID: " + deviceId2);
             
             // Generate Trip 1: San Francisco to Oakland (morning commute)
-            System.out.println("\nGenerating Trip 1: San Francisco to Oakland");
+            System.out.println("\nGenerating Trip 1: San Francisco to Oakland (Device 1)");
             List<Position> trip1 = generateTrip1();
-            long trip1StartPosId = insertPositions(conn, deviceId, trip1);
-            createTripEvents(conn, deviceId, trip1StartPosId, trip1StartPosId + trip1.size() - 1, trip1.get(0).timestamp, trip1.get(trip1.size()-1).timestamp);
+            long trip1StartPosId = insertPositions(conn, deviceId1, trip1);
+            createTripEvents(conn, deviceId1, trip1StartPosId, trip1StartPosId + trip1.size() - 1, trip1.get(0).timestamp, trip1.get(trip1.size()-1).timestamp);
             
             // Generate Trip 2: Oakland to San Jose (afternoon trip)
-            System.out.println("Generating Trip 2: Oakland to San Jose");
+            System.out.println("Generating Trip 2: Oakland to San Jose (Device 1)");
             List<Position> trip2 = generateTrip2();
-            long trip2StartPosId = insertPositions(conn, deviceId, trip2);
-            createTripEvents(conn, deviceId, trip2StartPosId, trip2StartPosId + trip2.size() - 1, trip2.get(0).timestamp, trip2.get(trip2.size()-1).timestamp);
+            long trip2StartPosId = insertPositions(conn, deviceId1, trip2);
+            createTripEvents(conn, deviceId1, trip2StartPosId, trip2StartPosId + trip2.size() - 1, trip2.get(0).timestamp, trip2.get(trip2.size()-1).timestamp);
             
-            // Update device with last position
-            updateDeviceLastPosition(conn, deviceId, trip2StartPosId + trip2.size() - 1);
+            // Generate Trip 3: Los Angeles to Santa Monica (Device 2)
+            System.out.println("Generating Trip 3: Los Angeles to Santa Monica (Device 2)");
+            List<Position> trip3 = generateTrip3();
+            long trip3StartPosId = insertPositions(conn, deviceId2, trip3);
+            createTripEvents(conn, deviceId2, trip3StartPosId, trip3StartPosId + trip3.size() - 1, trip3.get(0).timestamp, trip3.get(trip3.size()-1).timestamp);
+            
+            // Generate Trip 4: Santa Monica to Beverly Hills (Device 2)
+            System.out.println("Generating Trip 4: Santa Monica to Beverly Hills (Device 2)");
+            List<Position> trip4 = generateTrip4();
+            long trip4StartPosId = insertPositions(conn, deviceId2, trip4);
+            createTripEvents(conn, deviceId2, trip4StartPosId, trip4StartPosId + trip4.size() - 1, trip4.get(0).timestamp, trip4.get(trip4.size()-1).timestamp);
+            
+            // Update devices with last positions
+            updateDeviceLastPosition(conn, deviceId1, trip2StartPosId + trip2.size() - 1);
+            updateDeviceLastPosition(conn, deviceId2, trip4StartPosId + trip4.size() - 1);
             
             conn.close();
             System.out.println("\nTrip data generation completed successfully!");
@@ -61,11 +78,11 @@ public class GenerateTripData {
         }
     }
     
-    private static long createTestDevice(Connection conn) throws SQLException {
+    private static long createTestDevice(Connection conn, String name, String uniqueId) throws SQLException {
         String sql = "INSERT INTO tc_devices (name, uniqueid, attributes, disabled, status) VALUES (?, ?, ?, ?, ?)";
         PreparedStatement stmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-        stmt.setString(1, "Demo Vehicle");
-        stmt.setString(2, "demo123");
+        stmt.setString(1, name);
+        stmt.setString(2, uniqueId);
         stmt.setString(3, "{}");
         stmt.setBoolean(4, false);
         stmt.setString(5, "online");
@@ -143,6 +160,76 @@ public class GenerateTripData {
                 route[i][2], 
                 course,
                 startTime.plusMinutes(i * 4)
+            ));
+        }
+        
+        return positions;
+    }
+    
+    private static List<Position> generateTrip3() {
+        List<Position> positions = new ArrayList<>();
+        LocalDateTime startTime = LocalDateTime.now().minusDays(1).withHour(9).withMinute(15).withSecond(0);
+        
+        // Trip 3: Los Angeles to Santa Monica (Pacific Coast Highway route)
+        double[][] route = {
+            {34.0522, -118.2437, 0},    // Los Angeles start
+            {34.0622, -118.2537, 20},   // Moving west
+            {34.0722, -118.2637, 35},   // City streets
+            {34.0822, -118.2737, 45},   // Highway approach
+            {34.0922, -118.2837, 55},   // Highway speed
+            {34.1022, -118.2937, 60},   // Cruising
+            {34.1122, -118.3037, 55},   // Traffic
+            {34.1222, -118.3137, 45},   // Approaching coast
+            {34.1322, -118.3237, 35},   // Coastal roads
+            {34.1422, -118.3337, 25},   // Santa Monica approach
+            {34.1522, -118.3437, 15},   // City streets
+            {34.1622, -118.3537, 5},    // Parking
+            {34.1722, -118.3637, 0}     // Santa Monica destination
+        };
+        
+        for (int i = 0; i < route.length; i++) {
+            double course = i < route.length - 1 ? calculateCourse(route[i], route[i+1]) : 0;
+            positions.add(new Position(
+                route[i][0], 
+                route[i][1], 
+                route[i][2], 
+                course,
+                startTime.plusMinutes(i * 4)
+            ));
+        }
+        
+        return positions;
+    }
+    
+    private static List<Position> generateTrip4() {
+        List<Position> positions = new ArrayList<>();
+        LocalDateTime startTime = LocalDateTime.now().minusDays(1).withHour(16).withMinute(45).withSecond(0);
+        
+        // Trip 4: Santa Monica to Beverly Hills (Sunset Boulevard route)
+        double[][] route = {
+            {34.1722, -118.3637, 0},    // Santa Monica start
+            {34.1622, -118.3537, 15},   // Leaving parking
+            {34.1522, -118.3437, 25},   // City streets
+            {34.1422, -118.3337, 35},   // Sunset Boulevard
+            {34.1322, -118.3237, 40},   // Main road
+            {34.1222, -118.3137, 35},   // Traffic
+            {34.1122, -118.3037, 30},   // Approaching Beverly Hills
+            {34.1022, -118.2937, 25},   // Rodeo Drive area
+            {34.0922, -118.2837, 20},   // Beverly Hills streets
+            {34.0822, -118.2737, 15},   // Residential area
+            {34.0722, -118.2637, 10},   // Approaching destination
+            {34.0622, -118.2537, 5},    // Parking
+            {34.0522, -118.2437, 0}     // Beverly Hills destination
+        };
+        
+        for (int i = 0; i < route.length; i++) {
+            double course = i < route.length - 1 ? calculateCourse(route[i], route[i+1]) : 0;
+            positions.add(new Position(
+                route[i][0], 
+                route[i][1], 
+                route[i][2], 
+                course,
+                startTime.plusMinutes(i * 3)
             ));
         }
         
