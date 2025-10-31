@@ -32,6 +32,10 @@ public class GenerateTripData {
             Connection conn = DriverManager.getConnection(dbUrl, dbUser, dbPassword);
             System.out.println("Connected to database successfully");
             
+            // Get or create admin user
+            long userId = getOrCreateAdminUser(conn);
+            System.out.println("Using user ID: " + userId);
+            
             // Create first test device
             long deviceId1 = createTestDevice(conn, "Demo Vehicle", "demo123");
             System.out.println("Created test device 1 with ID: " + deviceId1);
@@ -39,6 +43,11 @@ public class GenerateTripData {
             // Create second test device
             long deviceId2 = createTestDevice(conn, "Demo Vehicle 2", "demo456");
             System.out.println("Created test device 2 with ID: " + deviceId2);
+            
+            // Assign devices to user
+            assignDeviceToUser(conn, userId, deviceId1);
+            assignDeviceToUser(conn, userId, deviceId2);
+            System.out.println("Assigned devices to user");
             
             // Generate Trip 1: San Francisco to Oakland (morning commute)
             System.out.println("\nGenerating Trip 1: San Francisco to Oakland (Device 1)");
@@ -76,6 +85,46 @@ public class GenerateTripData {
             System.err.println("Error: " + e.getMessage());
             e.printStackTrace();
         }
+    }
+    
+    private static long getOrCreateAdminUser(Connection conn) throws SQLException {
+        // Check if admin user exists
+        String selectSql = "SELECT id FROM tc_users WHERE administrator = true LIMIT 1";
+        PreparedStatement selectStmt = conn.prepareStatement(selectSql);
+        ResultSet rs = selectStmt.executeQuery();
+        
+        if (rs.next()) {
+            long userId = rs.getLong(1);
+            selectStmt.close();
+            return userId;
+        }
+        selectStmt.close();
+        
+        // Create admin user if doesn't exist
+        String insertSql = "INSERT INTO tc_users (name, email, hashedpassword, salt, administrator, attributes) VALUES (?, ?, ?, ?, ?, ?)";
+        PreparedStatement insertStmt = conn.prepareStatement(insertSql, Statement.RETURN_GENERATED_KEYS);
+        insertStmt.setString(1, "admin");
+        insertStmt.setString(2, "admin");
+        insertStmt.setString(3, "D33E22AE348AEB5660FC2140AEC35850C4DA997"); // Placeholder hash
+        insertStmt.setString(4, "000000000000000000000000000000000000000000000000000000000000"); // Placeholder salt
+        insertStmt.setBoolean(5, true);
+        insertStmt.setString(6, "{}");
+        
+        insertStmt.executeUpdate();
+        ResultSet keys = insertStmt.getGeneratedKeys();
+        keys.next();
+        long userId = keys.getLong(1);
+        insertStmt.close();
+        return userId;
+    }
+    
+    private static void assignDeviceToUser(Connection conn, long userId, long deviceId) throws SQLException {
+        String sql = "INSERT INTO tc_user_device (userid, deviceid) VALUES (?, ?)";
+        PreparedStatement stmt = conn.prepareStatement(sql);
+        stmt.setLong(1, userId);
+        stmt.setLong(2, deviceId);
+        stmt.executeUpdate();
+        stmt.close();
     }
     
     private static long createTestDevice(Connection conn, String name, String uniqueId) throws SQLException {
