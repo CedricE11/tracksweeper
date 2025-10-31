@@ -97,7 +97,7 @@ public class GenerateTripData {
     
     private static List<Position> generateTrip1() {
         List<Position> positions = new ArrayList<>();
-        LocalDateTime startTime = LocalDateTime.now().minusDays(1).withHour(8).withMinute(0).withSecond(0);
+        LocalDateTime startTime = LocalDateTime.now().minusDays(5).withHour(8).withMinute(0).withSecond(0);
         
         // Trip 1: San Francisco to Oakland (Golden Gate Bridge route)
         double[][] route = {
@@ -131,7 +131,7 @@ public class GenerateTripData {
     
     private static List<Position> generateTrip2() {
         List<Position> positions = new ArrayList<>();
-        LocalDateTime startTime = LocalDateTime.now().minusDays(1).withHour(14).withMinute(30).withSecond(0);
+        LocalDateTime startTime = LocalDateTime.now().minusDays(5).withHour(14).withMinute(30).withSecond(0);
         
         // Trip 2: Oakland to San Jose (Highway 880 route)
         double[][] route = {
@@ -168,7 +168,7 @@ public class GenerateTripData {
     
     private static List<Position> generateTrip3() {
         List<Position> positions = new ArrayList<>();
-        LocalDateTime startTime = LocalDateTime.now().minusDays(1).withHour(9).withMinute(15).withSecond(0);
+        LocalDateTime startTime = LocalDateTime.now().minusDays(10).withHour(9).withMinute(15).withSecond(0);
         
         // Trip 3: Los Angeles to Santa Monica (Pacific Coast Highway route)
         double[][] route = {
@@ -203,7 +203,7 @@ public class GenerateTripData {
     
     private static List<Position> generateTrip4() {
         List<Position> positions = new ArrayList<>();
-        LocalDateTime startTime = LocalDateTime.now().minusDays(1).withHour(16).withMinute(45).withSecond(0);
+        LocalDateTime startTime = LocalDateTime.now().minusDays(10).withHour(16).withMinute(45).withSecond(0);
         
         // Trip 4: Santa Monica to Beverly Hills (Sunset Boulevard route)
         double[][] route = {
