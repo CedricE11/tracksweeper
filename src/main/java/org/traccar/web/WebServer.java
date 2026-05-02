@@ -48,6 +48,7 @@ import org.traccar.api.DateParameterConverterProvider;
 import org.traccar.api.ResourceErrorHandler;
 import org.traccar.api.StreamWriter;
 import org.traccar.api.resource.ServerResource;
+import org.traccar.api.security.LoginService;
 import org.traccar.api.security.SecurityRequestFilter;
 import org.traccar.config.Config;
 import org.traccar.config.Keys;
@@ -68,7 +69,9 @@ public class WebServer implements LifecycleObject {
 
     private final Injector injector;
     private final Config config;
+
     private final Server server;
+    private McpServerHolder mcpServerHolder;
 
     public WebServer(Injector injector, Config config) throws IOException {
         this.injector = injector;
@@ -168,6 +171,16 @@ public class WebServer implements LifecycleObject {
             servletHandler.addServlet(servletHolder, "/api/media/*");
         }
 
+        if (config.getBoolean(Keys.WEB_MCP_ENABLE)) {
+            mcpServerHolder = injector.getInstance(McpServerHolder.class);
+            var mcpServletHolder = new ServletHolder(mcpServerHolder.getServlet());
+            mcpServletHolder.setAsyncSupported(true);
+            servletHandler.addServlet(mcpServletHolder, McpServerHolder.PATH);
+            servletHandler.addFilter(
+                    new FilterHolder(new McpAuthFilter(injector.getInstance(LoginService.class))),
+                    McpServerHolder.PATH + "/*", EnumSet.of(DispatcherType.REQUEST));
+        }
+
         ResourceConfig resourceConfig = new ResourceConfig();
         resourceConfig.property("jersey.config.server.wadl.disableWadl", true);
         resourceConfig.registerClasses(
@@ -235,6 +248,9 @@ public class WebServer implements LifecycleObject {
     @Override
     public void stop() throws Exception {
         server.stop();
+        if (mcpServerHolder != null) {
+            mcpServerHolder.close();
+        }
     }
 
 }
