@@ -16,6 +16,7 @@ java {
 }
 
 compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
 jar.destinationDirectory = file("$projectDir/target")
 
 checkstyle {
