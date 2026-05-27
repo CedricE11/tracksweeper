@@ -1,5 +1,5 @@
 [submodule "traccar-web"]
 	path = traccar-web
 	url = https://github.com/CedricE11/tracksweeper-web.git
-	branch = master
+	branch = sweeper-features-v6.12
 	ignore = all
