@@ -14,7 +14,11 @@ This document lists the user-visible customizations applied on top of vanilla [T
 
 - **Report renamed from "Trips" to "Sweeps" ("Balayage" in French)** — Done via locale overrides only (`reportTrips` key in `en.json` and `fr.json`); the underlying key name and API value `trips` are unchanged.
 
-- **New users default to a limited reports menu** — New users default to `visibleReports='trips,chart,replay'`. Set in both `traccar-web/src/settings/UserPage.jsx` (admin-creates-user) and `traccar-web/src/login/RegisterPage.jsx` (self-registration); the two must stay in sync.
+- **New users default to the Sweeps report only** — New users default to `visibleReports='trips'` (Sweeps only; previously `trips,chart,replay`). Set in both `traccar-web/src/settings/UserPage.jsx` (admin-creates-user) and `traccar-web/src/login/RegisterPage.jsx` (self-registration); the two must stay in sync.
+
+- **Reports sidebar auto-hides for single-report users** — When at most one report type is active (`visibleReports.length <= 1`), the reports left drawer is hidden entirely and replaced by a floating circular back button overlaid on the top-left of the content (returns to the main map), reclaiming the vertical space a one-item nav would waste. `traccar-web/src/common/components/PageLayout.jsx` (gated to `/reports*` paths). The shared `visibleReports` parsing lives in the new `traccar-web/src/common/util/useVisibleReports.js` hook, also consumed by `ReportsMenu.jsx`.
+
+- **Bottom-nav report button labeled “Sweeps”** — The bottom navigation uses the `reportTrips` label (“Sweeps” / “Balayage”) for the reports button instead of `reportTitle` (“Reports”). `traccar-web/src/common/components/BottomMenu.jsx`.
 
 - **Translation helper extended** — `useTranslation` in `traccar-web/src/common/components/LocalizationProvider.jsx` supports `{placeholder}` interpolation and falls back to English when a key is missing from the active locale, so custom keys can be added to `en.json` only and degrade gracefully everywhere else.
 
